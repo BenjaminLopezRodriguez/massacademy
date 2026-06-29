@@ -1,0 +1,112 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Mass Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+        - generic [ref=e6]: Mass Academy
+      - navigation [ref=e7]:
+        - link "Apply" [ref=e8] [cursor=pointer]:
+          - /url: "#apply"
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - heading "Expertise is the last unfair advantage." [level=1] [ref=e11]
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: Describe your expertise
+          - generic [ref=e15]:
+            - textbox "Describe your expertise" [ref=e16]:
+              - /placeholder: What is your domain expertise?
+            - button "Join your room" [disabled] [ref=e17]:
+              - img [ref=e18]
+        - generic [ref=e20]:
+          - link "Apply as a Founder" [ref=e21] [cursor=pointer]:
+            - /url: "#apply"
+          - link "What we are" [ref=e22] [cursor=pointer]:
+            - /url: "#compound"
+    - generic [ref=e24]:
+      - paragraph [ref=e25]: What We Are
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: "01"
+          - paragraph [ref=e29]: Incubator
+          - paragraph [ref=e30]: We identify exceptional domain experts and help them transform decades of tacit knowledge into category-defining companies.
+        - generic [ref=e31]:
+          - generic [ref=e32]: "02"
+          - paragraph [ref=e33]: Community
+          - paragraph [ref=e34]: Experts in the same field connect in dedicated rooms — sharing context that never makes it onto the internet.
+        - generic [ref=e35]:
+          - generic [ref=e36]: "03"
+          - paragraph [ref=e37]: Collaboration Space
+          - paragraph [ref=e38]: From co-founders to advisors, the compound puts the right people in the same room at the right moment.
+        - generic [ref=e39]:
+          - generic [ref=e40]: "04"
+          - paragraph [ref=e41]: Design Studio
+          - paragraph [ref=e42]: AI-native workflows let our founders move from knowledge to product faster than any traditional studio.
+    - generic [ref=e44]:
+      - paragraph [ref=e45]: The Problem
+      - generic [ref=e46]:
+        - paragraph [ref=e47]: The internet democratized information.
+        - paragraph [ref=e48]: AI democratizes software.
+        - paragraph [ref=e49]: What remains scarce is decades of hard-earned expertise.
+    - generic [ref=e51]:
+      - paragraph [ref=e52]: How Mass Works
+      - list [ref=e53]:
+        - listitem [ref=e54]:
+          - generic [ref=e55]: "01"
+          - generic [ref=e56]: Discover experts.
+        - listitem [ref=e57]:
+          - generic [ref=e58]: "02"
+          - generic [ref=e59]: Extract tacit knowledge.
+        - listitem [ref=e60]:
+          - generic [ref=e61]: "03"
+          - generic [ref=e62]: Build software.
+        - listitem [ref=e63]:
+          - generic [ref=e64]: "04"
+          - generic [ref=e65]: Launch companies.
+        - listitem [ref=e66]:
+          - generic [ref=e67]: "05"
+          - generic [ref=e68]: Compound infrastructure.
+    - generic [ref=e70]:
+      - paragraph [ref=e71]: Who We Look For
+      - list [ref=e72]:
+        - listitem [ref=e73]: Nurses.
+        - listitem [ref=e74]: Electricians.
+        - listitem [ref=e75]: Teachers.
+        - listitem [ref=e76]: Pilots.
+        - listitem [ref=e77]: Accountants.
+        - listitem [ref=e78]: Mechanics.
+        - listitem [ref=e79]: Geologists.
+        - listitem [ref=e80]: Scientists.
+        - listitem [ref=e81]: Operators.
+      - paragraph [ref=e82]: Anyone whose expertise can't be scraped from the internet.
+    - generic [ref=e84]:
+      - paragraph [ref=e85]: The Flywheel
+      - generic [ref=e86]:
+        - paragraph [ref=e88]: Experts
+        - paragraph [ref=e91]: Knowledge
+        - paragraph [ref=e94]: Software
+        - paragraph [ref=e97]: Companies
+        - paragraph [ref=e100]: Shared Infrastructure
+        - paragraph [ref=e103]: More Founders
+    - generic [ref=e105]:
+      - paragraph [ref=e106]: The Thesis
+      - generic [ref=e107]:
+        - paragraph [ref=e108]: The Industrial Revolution amplified labor.
+        - paragraph [ref=e109]: The Internet amplified information.
+        - paragraph [ref=e110]: AI amplifies expertise.
+        - paragraph [ref=e111]: Mass Academy exists to ensure the people who understand the world best build the companies that shape its future.
+    - generic [ref=e113]:
+      - paragraph [ref=e114]: Apply
+      - generic [ref=e115]:
+        - heading "Apply as a Founder" [level=2] [ref=e116]
+        - paragraph [ref=e117]: We identify exceptional domain experts and help them transform years of accumulated knowledge into category-defining companies.
+        - link "founders@massacademy.com" [ref=e118] [cursor=pointer]:
+          - /url: mailto:founders@massacademy.com
+  - contentinfo [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - img [ref=e122]
+        - paragraph [ref=e123]: Mass Academy
+      - paragraph [ref=e124]: © 2026
+  - alert [ref=e125]

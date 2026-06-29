@@ -1,0 +1,13 @@
+[    2018ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_compiled_react-dom_5b518c3d._.js:14537
+[   48436ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_compiled_react-dom_5b518c3d._.js:14537
+[   55532ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5956
+[   55696ms] [LOG] [Fast Refresh] done in 235ms @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5816
+[   61875ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5956
+[   62105ms] [LOG] [Fast Refresh] done in 274ms @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5816
+[   62408ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_compiled_react-dom_5b518c3d._.js:14537
+[   67128ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5956
+[   67158ms] [LOG] [Fast Refresh] done in 48ms @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5816
+[   70344ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5956
+[   70444ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5816
+[  101629ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5956
+[  101655ms] [LOG] [Fast Refresh] done in 76ms @ http://localhost:3002/_next/static/chunks/1c3cf_next_dist_client_51650efd._.js:5816

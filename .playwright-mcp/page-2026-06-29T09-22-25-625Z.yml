@@ -1,0 +1,113 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Mass Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+        - generic [ref=e6]: Mass Academy
+      - navigation [ref=e7]:
+        - link "Methodology" [ref=e8] [cursor=pointer]:
+          - /url: "#methodology"
+        - link "Apply" [ref=e9] [cursor=pointer]:
+          - /url: "#apply"
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - paragraph [ref=e14]: Mass Academy — Incubator × Community × Studio
+      - heading "Expertise is the last unfair advantage." [level=1] [ref=e15]:
+        - text: Expertise is the
+        - text: last unfair
+        - text: advantage.
+      - paragraph [ref=e16]: Part incubator, part community, part design studio. The compound where domain experts become founders.
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: Describe your expertise
+          - generic [ref=e20]:
+            - textbox "Describe your expertise" [ref=e21]:
+              - /placeholder: What is your domain expertise?
+            - button "Join your room" [disabled] [ref=e22]:
+              - img [ref=e23]
+        - generic [ref=e25]:
+          - link "Apply as a Founder" [ref=e26] [cursor=pointer]:
+            - /url: "#apply"
+          - link "Explore the compound →" [ref=e27] [cursor=pointer]:
+            - /url: "#compound"
+    - generic [ref=e29]:
+      - paragraph [ref=e30]: The Compound
+      - heading "Four things at once. One place." [level=2] [ref=e31]
+      - generic [ref=e32]:
+        - article [ref=e33]:
+          - generic [ref=e34]: "01"
+          - generic [ref=e35]:
+            - heading "Incubator" [level=3] [ref=e36]
+            - paragraph [ref=e37]: Expert founders, built from within.
+          - paragraph [ref=e38]: We identify exceptional domain experts and help them transform decades of tacit knowledge into category-defining companies.
+        - article [ref=e39]:
+          - generic [ref=e40]: "02"
+          - generic [ref=e41]:
+            - heading "Community" [level=3] [ref=e42]
+            - paragraph [ref=e43]: Disciplines gathering in real time.
+          - paragraph [ref=e44]: Experts in the same field connect in dedicated rooms — sharing context that never makes it onto the internet.
+        - article [ref=e45]:
+          - generic [ref=e46]: "03"
+          - generic [ref=e47]:
+            - heading "Collaboration Space" [level=3] [ref=e48]
+            - paragraph [ref=e49]: Building together, not alone.
+          - paragraph [ref=e50]: From co-founders to advisors, the compound puts the right people in the same room at the right moment.
+        - article [ref=e51]:
+          - generic [ref=e52]: "04"
+          - generic [ref=e53]:
+            - heading "Design Studio" [level=3] [ref=e54]
+            - paragraph [ref=e55]: Agentic tools that accelerate everything.
+          - paragraph [ref=e56]: AI-native workflows let our founders move from knowledge to product faster than any traditional studio.
+    - generic [ref=e58]:
+      - paragraph [ref=e59]: How Mass Works
+      - list [ref=e60]:
+        - listitem [ref=e61]:
+          - generic [ref=e62]: "01"
+          - generic [ref=e63]: Discover experts.
+        - listitem [ref=e64]:
+          - generic [ref=e65]: "02"
+          - generic [ref=e66]: Extract tacit knowledge.
+        - listitem [ref=e67]:
+          - generic [ref=e68]: "03"
+          - generic [ref=e69]: Build software.
+        - listitem [ref=e70]:
+          - generic [ref=e71]: "04"
+          - generic [ref=e72]: Launch companies.
+        - listitem [ref=e73]:
+          - generic [ref=e74]: "05"
+          - generic [ref=e75]: Compound infrastructure.
+    - generic [ref=e77]:
+      - paragraph [ref=e78]: Who We Look For
+      - generic [ref=e79]:
+        - generic [ref=e80]: Nurses
+        - generic [ref=e81]: Electricians
+        - generic [ref=e82]: Teachers
+        - generic [ref=e83]: Pilots
+        - generic [ref=e84]: Accountants
+        - generic [ref=e85]: Mechanics
+        - generic [ref=e86]: Geologists
+        - generic [ref=e87]: Scientists
+        - generic [ref=e88]: Operators
+        - generic [ref=e89]: and more.
+      - paragraph [ref=e90]: Anyone whose expertise can't be scraped from the internet.
+    - generic [ref=e92]:
+      - paragraph [ref=e93]: The Thesis
+      - generic [ref=e94]:
+        - paragraph [ref=e95]: The Industrial Revolution amplified labor.
+        - paragraph [ref=e96]: The Internet amplified information.
+        - paragraph [ref=e97]: AI amplifies expertise.
+        - paragraph [ref=e98]: Mass Academy exists to ensure the people who understand the world best build the companies that shape its future.
+    - generic [ref=e100]:
+      - paragraph [ref=e101]: Apply
+      - generic [ref=e102]:
+        - heading "Apply as a Founder" [level=2] [ref=e103]
+        - paragraph [ref=e104]: We identify exceptional domain experts and help them transform years of accumulated knowledge into category-defining companies.
+        - link "founders@massacademy.com" [ref=e105] [cursor=pointer]:
+          - /url: mailto:founders@massacademy.com
+  - contentinfo [ref=e106]:
+    - generic [ref=e107]:
+      - generic [ref=e108]:
+        - img [ref=e109]
+        - paragraph [ref=e110]: Mass Academy
+      - paragraph [ref=e111]: © 2026
