@@ -201,3 +201,4 @@ TypeError: Cannot convert undefined or null to object
 [ 1812978ms] [LOG] [Fast Refresh] done in 89ms @ http://localhost:3001/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
 [ 1814712ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
 [ 1814877ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3001/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[ 2087221ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
