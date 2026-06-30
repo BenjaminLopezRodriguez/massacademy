@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { LabelButton } from "@/components/label-button";
 import { ProgressBar } from "@/components/progressbar";
 import {
   formatJoinedYear,
@@ -52,6 +53,7 @@ function ReadinessBar({ label, value }: { label: string; value: number }) {
     <div className="flex items-center gap-3">
       <span className="shrink-0 text-sm text-ink">{label}</span>
       <ProgressBar
+        color="bg-accent"
         variant="representative"
         value={value}
         className="min-w-0 flex-1"
@@ -101,19 +103,18 @@ export function ProfileView({
           {skills.length > 0 && (
             <ul className="mt-8 flex flex-wrap gap-3">
               {skills.map((skill) => (
-                <li
-                  key={skill.label}
-                  className="rounded-full border border-rule px-4 py-2 text-sm text-ink"
-                >
-                  <span className="font-medium">{skill.label}</span>
-                  {skill.years != null && (
-                    <span className="text-ink-muted"> {skill.years} yrs</span>
-                  )}
-                  {skill.endorsed > 0 && (
-                    <span className="ml-2 text-emerald-600">
-                      {skill.endorsed} endorsed
-                    </span>
-                  )}
+                <li key={skill.label}>
+                  <LabelButton>
+                    <span>{skill.label}</span>
+                    {skill.years != null && (
+                      <span className="font-normal text-ink-muted"> {skill.years} yrs</span>
+                    )}
+                    {skill.endorsed > 0 && (
+                      <span className="font-normal text-emerald-600">
+                        {skill.endorsed} endorsed
+                      </span>
+                    )}
+                  </LabelButton>
                 </li>
               ))}
             </ul>

@@ -3,22 +3,70 @@ import Link from "next/link";
 
 import { Footer } from "@/app/_components/footer";
 import { Header } from "@/app/_components/header";
+import { FeedChip } from "@/app/feed/_components/feed-chip";
 import { PostForm } from "@/app/feed/_components/post-form";
 import { OnboardingSync } from "@/app/profile/_components/onboarding-sync";
 import { api } from "@/trpc/server";
 
-const stateColors: Record<string, string> = {
-  emerging: "text-ink-faint",
-  validating: "text-amber-700",
-  solution_exploration: "text-blue-600",
-  prototype: "text-purple-700",
-  company_forming: "text-accent",
-  operating: "text-emerald-700",
+function timeAgo(date: Date): string {
+  const mins = Math.floor((Date.now() - date.getTime()) / 60000);
+  if (mins < 60) return `${mins}M AGO`;
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return `${hours}H AGO`;
+  return `${Math.floor(hours / 24)}D AGO`;
+}
+
+function evidenceChipLabel(count: number, subtype?: string | null) {
+  if (subtype === "interview") {
+    return count === 1 ? "1 supporting interview" : `${count} supporting interviews`;
+  }
+  return count === 1 ? "1 supporting record" : `${count} supporting records`;
+}
+
+type FeedProblem = {
+  id: number;
+  title: string;
+  description: string;
+  momentumScore: number;
+  category: { slug: string; name: string } | null;
+  patterns: { name: string; slug: string }[];
+  evidenceCount: number;
 };
 
+function PatternCallout({ problem }: { problem: FeedProblem }) {
+  const tags = [
+    ...problem.patterns.map((p) => p.name),
+    ...(problem.category ? [problem.category.name] : []),
+  ];
+
+  return (
+    <li className="border-b border-rule py-10">
+      <div className="bg-orange-50 px-6 py-8 md:px-8">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <span className="label text-ink-faint">Pattern detected</span>
+          {tags.map((tag) => (
+            <span key={tag} className="label text-ink-faint">
+              {tag}
+            </span>
+          ))}
+        </div>
+        <p className="mt-5 max-w-2xl font-serif text-xl leading-relaxed text-ink">
+          {problem.description}
+        </p>
+        <Link
+          href={`/problems/${problem.id}`}
+          className="mt-5 inline-block text-sm text-accent transition-colors hover:text-accent/80"
+        >
+          View the problem →
+        </Link>
+      </div>
+    </li>
+  );
+}
+
 export default async function FeedPage() {
-  const [problems, rooms] = await Promise.all([
-    api.problem.list({ limit: 20 }),
+  const [items, rooms] = await Promise.all([
+    api.problem.activityFeed({ limit: 20 }),
     api.community.listRooms(),
   ]);
 
@@ -28,135 +76,126 @@ export default async function FeedPage() {
   let kindeUser: { id: string; email?: string | null } | null = null;
   if (authed) {
     const user = await getUser();
-    if (user?.id) {
-      kindeUser = { id: user.id, email: user.email };
-    }
+    if (user?.id) kindeUser = { id: user.id, email: user.email };
     const joined = [user?.given_name, user?.family_name].filter(Boolean).join(" ");
     defaultName = joined.length > 0 ? joined : (user?.email ?? undefined);
   }
 
   const roomsForForm = rooms.map((r) => ({ slug: r.slug, name: r.name, categoryId: r.id }));
 
+  const patternShown = new Set<number>();
+
   return (
     <>
       <Header />
-      <div className="mx-auto max-w-7xl px-6 pt-24 pb-20 md:px-12">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[200px_1fr_280px]">
-          {/* Left: lens nav */}
-          <aside className="lg:pt-8">
-            <p className="label">Lenses</p>
-            <nav className="mt-4">
-              {rooms.map((room) => (
-                <Link
-                  key={room.slug}
-                  href={`/rooms/${room.slug}`}
-                  className="flex items-center justify-between py-2 text-sm text-ink-muted transition-colors hover:text-ink"
-                >
-                  <span>{room.name}</span>
-                  {room.memberCount > 0 && (
-                    <span className="text-xs text-ink-faint">{room.memberCount}</span>
-                  )}
-                </Link>
-              ))}
-            </nav>
-          </aside>
+      <div className="mx-auto max-w-3xl px-6 pt-24 pb-24 md:px-8">
+        <PostForm defaultName={defaultName} rooms={roomsForForm} />
 
-          {/* Center: problems feed */}
-          <main>
-            <div className="flex items-center justify-between border-b border-rule pb-6">
-              <h1 className="font-serif text-2xl text-ink">Problems</h1>
-              <PostForm defaultName={defaultName} rooms={roomsForForm} />
-            </div>
+        {items.length === 0 ? (
+          <p className="mt-16 text-sm text-ink-faint">
+            Nothing yet. Post an observation to start the feed.
+          </p>
+        ) : (
+          <ol>
+            {items.flatMap((item) => {
+              const typeLabel =
+                item.type === "evidence"
+                  ? "Evidence"
+                  : (item.postType
+                      ? item.postType
+                          .replace(/_/g, " ")
+                          .replace(/\b\w/g, (c) => c.toUpperCase())
+                      : "Observation");
+              const problem = item.problem;
+              const footerTags = problem?.patterns.map((p) => p.name) ?? [];
+              const showPatternCallout =
+                problem &&
+                problem.patterns.length > 0 &&
+                !patternShown.has(problem.id);
 
-            {problems.length === 0 ? (
-              <p className="mt-10 text-sm text-ink-faint">
-                No problems yet. Be the first to submit an observation.
-              </p>
-            ) : (
-              problems.map((p) => (
-                <article key={p.id} className="border-b border-rule py-7">
+              if (showPatternCallout) patternShown.add(problem.id);
+
+              const entry = (
+                <li key={`${item.type}-${item.id}`} className="border-b border-rule py-10">
                   <div className="flex items-center justify-between gap-4">
-                    <div className="flex items-center gap-3">
-                      <span className="label text-red-600">Problem</span>
-                      {p.category && (
-                        <Link
-                          href={`/rooms/${p.category.slug}`}
-                          className="label text-ink-faint transition-colors hover:text-accent"
-                        >
-                          {p.category.name}
-                        </Link>
+                    <div className="flex min-w-0 items-center gap-2">
+                      <span className="label text-ink-faint shrink-0">{typeLabel}</span>
+                      {problem && (
+                        <>
+                          <span className="shrink-0 text-xs text-ink-faint">→</span>
+                          <Link
+                            href={`/problems/${problem.id}`}
+                            className="label truncate text-ink transition-colors hover:text-accent"
+                          >
+                            {problem.title}
+                          </Link>
+                        </>
                       )}
                     </div>
-                    <span
-                      className={`label shrink-0 ${p.momentumScore >= 70 ? "text-accent" : "text-ink-faint"}`}
-                    >
-                      ↑ {p.momentumScore}
+                    <span className="label shrink-0 text-ink-faint">
+                      {timeAgo(new Date(item.createdAt))}
                     </span>
                   </div>
 
-                  <Link href={`/problems/${p.id}`} className="group">
-                    <h2 className="mt-3 text-base font-medium text-ink transition-colors group-hover:text-accent">
-                      {p.title}
-                    </h2>
-                  </Link>
+                  <p className="mt-6 font-serif text-2xl leading-relaxed text-ink">
+                    {item.content}
+                  </p>
 
-                  {p.patterns.length > 0 && (
-                    <div className="mt-3 flex flex-wrap gap-3">
-                      {p.patterns.map((pattern) => (
-                        <span key={pattern} className="label text-ink-faint">
-                          {pattern}
-                        </span>
-                      ))}
+                  {item.type === "observation" && problem && problem.evidenceCount > 0 && (
+                    <p className="mt-4 text-sm text-ink-muted">
+                      {problem.evidenceCount}{" "}
+                      {problem.evidenceCount === 1 ? "expert has" : "experts have"} contributed
+                      evidence to this problem.
+                    </p>
+                  )}
+
+                  {item.type === "observation" && problem && (
+                    <div className="mt-6 flex flex-wrap gap-2">
+                      <FeedChip label="Problem" href={`/problems/${problem.id}`}>
+                        {problem.title}
+                      </FeedChip>
+                      {problem.evidenceCount > 0 && (
+                        <FeedChip label="Evidence" href={`/problems/${problem.id}`}>
+                          {evidenceChipLabel(problem.evidenceCount)}
+                        </FeedChip>
+                      )}
                     </div>
                   )}
 
-                  <div className="mt-4 flex items-center gap-4">
-                    <span
-                      className={`label ${stateColors[p.state] ?? "text-ink-faint"}`}
-                    >
-                      {p.state.replace(/_/g, " ")}
-                    </span>
-                    <span className="text-xs text-ink-faint">
-                      Confidence {p.confidenceScore}
-                    </span>
-                    {p.momentumDelta !== 0 && (
-                      <span
-                        className={`text-xs ${p.momentumDelta > 0 ? "text-accent" : "text-red-600"}`}
-                      >
-                        {p.momentumDelta > 0 ? "▲" : "▼"}{" "}
-                        {Math.abs(p.momentumDelta)} this week
-                      </span>
-                    )}
+                  <div className="mt-6 flex items-center justify-between gap-4">
+                    <div className="flex min-w-0 items-center gap-2">
+                      {item.authorName && (
+                        <span className="text-sm font-medium text-ink">{item.authorName}</span>
+                      )}
+                      {item.category && (
+                        <span className="text-sm text-ink-muted">{item.category.name}</span>
+                      )}
+                    </div>
+                    <div className="flex shrink-0 items-center gap-4">
+                      {footerTags.length > 0 && (
+                        <div className="hidden flex-wrap justify-end gap-3 sm:flex">
+                          {footerTags.map((tag) => (
+                            <span key={tag} className="label text-ink-faint">
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                      {problem && (
+                        <span className="label text-accent">↑ {problem.momentumScore}</span>
+                      )}
+                    </div>
                   </div>
-                </article>
-              ))
-            )}
-          </main>
+                </li>
+              );
 
-          {/* Right: digest */}
-          <aside className="space-y-10 lg:pt-8">
-            <div>
-              <p className="label">Gaining Signal</p>
-              <ul className="mt-4 space-y-3">
-                {problems.slice(0, 5).map((p) => (
-                  <li key={p.id}>
-                    <Link
-                      href={`/problems/${p.id}`}
-                      className="group flex items-center justify-between gap-3"
-                    >
-                      <span className="text-sm text-ink-muted transition-colors group-hover:text-ink">
-                        {p.title}
-                      </span>
-                      <span className="label shrink-0 text-accent">
-                        ↑ {p.momentumScore}
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </aside>
-        </div>
+              if (showPatternCallout && problem) {
+                return [entry, <PatternCallout key={`pattern-${problem.id}`} problem={problem} />];
+              }
+              return [entry];
+            })}
+          </ol>
+        )}
       </div>
       <Footer />
       {kindeUser && defaultName && (

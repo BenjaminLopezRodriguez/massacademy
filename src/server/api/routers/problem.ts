@@ -1,5 +1,5 @@
 import { TRPCError } from "@trpc/server";
-import { asc, eq } from "drizzle-orm";
+import { asc, desc, eq } from "drizzle-orm";
 import { z } from "zod";
 
 import { createTRPCRouter, publicProcedure } from "@/server/api/trpc";
@@ -277,12 +277,96 @@ export const problemRouter = createTRPCRouter({
       return { id: idea.id };
     }),
 
+  activityFeed: publicProcedure
+    .input(z.object({ limit: z.number().int().min(1).max(50).default(20) }))
+    .query(async ({ ctx, input }) => {
+      const problemWith = {
+        category: true,
+        problemPatterns: { with: { pattern: true } },
+        evidenceProblems: { columns: { id: true } },
+      } as const;
+
+      const [recentObs, recentEvidence] = await Promise.all([
+        ctx.db.query.observations.findMany({
+          with: {
+            observationProblems: { with: { problem: { with: problemWith } }, limit: 1 },
+            category: true,
+          },
+          orderBy: [desc(observations.createdAt)],
+          limit: input.limit,
+        }),
+        ctx.db.query.evidence.findMany({
+          with: {
+            evidenceProblems: { with: { problem: { with: problemWith } }, limit: 1 },
+            category: true,
+          },
+          orderBy: [desc(evidence.createdAt)],
+          limit: input.limit,
+        }),
+      ]);
+
+      function mapProblem(
+        problem: (typeof recentObs)[number]["observationProblems"][number]["problem"],
+      ) {
+        return {
+          id: problem.id,
+          title: problem.title,
+          description: problem.description,
+          momentumScore: problem.momentumScore,
+          category: problem.category,
+          patterns: problem.problemPatterns.map((pp) => ({
+            name: pp.pattern.name,
+            slug: pp.pattern.slug,
+          })),
+          evidenceCount: problem.evidenceProblems.length,
+        };
+      }
+
+      const obsItems = recentObs.map((o) => ({
+        type: "observation" as const,
+        id: o.id,
+        content: o.content,
+        title: null as string | null,
+        subtype: null as string | null,
+        postType: o.postType,
+        authorName: o.authorName,
+        createdAt: o.createdAt,
+        problem: o.observationProblems[0]?.problem
+          ? mapProblem(o.observationProblems[0].problem)
+          : null,
+        category: o.category,
+      }));
+
+      const evItems = recentEvidence.map((e) => ({
+        type: "evidence" as const,
+        id: e.id,
+        content: e.content,
+        title: e.title,
+        subtype: e.subtype as string,
+        postType: null as string | null,
+        authorName: e.contributorName,
+        createdAt: e.createdAt,
+        problem: e.evidenceProblems[0]?.problem
+          ? mapProblem(e.evidenceProblems[0].problem)
+          : null,
+        category: e.category,
+      }));
+
+      return [...obsItems, ...evItems]
+        .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime())
+        .slice(0, input.limit);
+    }),
+
   postObservation: publicProcedure
     .input(
       z.object({
         content: z.string().min(10).max(2000),
         authorName: z.string().min(1).max(128),
         categoryId: z.number().int().positive().optional(),
+        postType: z.enum([
+          "observation", "idea", "request", "customer_insight", "case_study",
+          "prototype", "milestone", "question", "hiring", "funding", "workflow", "problem_report",
+        ]).default("observation"),
       }),
     )
     .mutation(async ({ ctx, input }) => {
@@ -292,6 +376,7 @@ export const problemRouter = createTRPCRouter({
           content: input.content,
           authorName: input.authorName,
           categoryId: input.categoryId,
+          postType: input.postType,
         })
         .returning({ id: observations.id });
 

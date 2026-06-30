@@ -170,6 +170,21 @@ export const problemEvents = createTable(
 
 // ─── Observations — first-class; may exist before a Problem ──────────────────
 
+export const postTypeEnum = pgEnum("post_type", [
+  "observation",
+  "idea",
+  "request",
+  "customer_insight",
+  "case_study",
+  "prototype",
+  "milestone",
+  "question",
+  "hiring",
+  "funding",
+  "workflow",
+  "problem_report",
+]);
+
 export const observations = createTable(
   "observation",
   (d) => ({
@@ -177,6 +192,7 @@ export const observations = createTable(
     authorSessionId: d.varchar({ length: 64 }),
     authorName: d.varchar({ length: 128 }),
     content: d.text().notNull(),
+    postType: postTypeEnum().notNull().default("observation"),
     // Optional lens context — doesn't own the observation
     categoryId: d
       .integer()

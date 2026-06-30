@@ -13,29 +13,26 @@ export default async function ProfilePage({
 }) {
   const { handle } = await params;
   const { isAuthenticated, getUser } = getKindeServerSession();
-  const authed = await isAuthenticated();
 
-  if (!authed) {
-    redirect("/api/auth/login");
+  let kindeId: string;
+  let displayName: string;
+
+  if (handle === "me") {
+    const authed = await isAuthenticated();
+    if (!authed) redirect("/api/auth/login");
+    const user = await getUser();
+    if (!user?.id) redirect("/api/auth/login");
+    kindeId = user.id;
+    const joined = [user.given_name, user.family_name].filter(Boolean).join(" ");
+    displayName = joined.length > 0 ? joined : (user.email ?? "Expert");
+  } else {
+    const dbUser = await api.user.getByKindeId({ kindeId: handle });
+    if (!dbUser) notFound();
+    kindeId = dbUser.kindeId;
+    displayName = dbUser.displayName ?? dbUser.email ?? "Expert";
   }
 
-  const user = await getUser();
-
-  if (!user?.id) {
-    redirect("/api/auth/login");
-  }
-
-  if (handle !== "me") {
-    notFound();
-  }
-
-  const joined = [user.given_name, user.family_name].filter(Boolean).join(" ");
-  const displayName = joined.length > 0 ? joined : (user.email ?? "Expert");
-
-  const profile = await api.user.getMyProfile({
-    kindeId: user.id,
-    displayName,
-  });
+  const profile = await api.user.getMyProfile({ kindeId, displayName });
 
   return (
     <>

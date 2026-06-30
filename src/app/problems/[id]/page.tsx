@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Footer } from "@/app/_components/footer";
 import { Header } from "@/app/_components/header";
 import { ActionsPanel } from "@/app/problems/[id]/_components/actions-panel";
+import { LabelButton } from "@/components/label-button";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { api } from "@/trpc/server";
 
@@ -213,9 +214,7 @@ export default async function ProblemPage({
                 <div className="mt-2 space-y-2">
                   {problem.patterns.map((pattern) => (
                     <div key={pattern.id}>
-                      <span className="inline-block rounded-sm border border-ink/20 px-3 py-1.5 text-sm font-medium text-ink">
-                        {pattern.name}
-                      </span>
+                      <LabelButton>{pattern.name}</LabelButton>
                       <p className="mt-1.5 max-w-[220px] text-xs leading-relaxed text-ink-faint">
                         {pattern.description}
                       </p>

@@ -16,6 +16,7 @@ const progressBarVariants = cva("", {
 
 type ProgressBarProps = {
   value: number;
+  color?: string;
   className?: string;
 } & VariantProps<typeof progressBarVariants>;
 
@@ -25,6 +26,7 @@ function clampProgress(value: number) {
 
 function ProgressBar({
   value,
+  color,
   variant = "default",
   className,
 }: ProgressBarProps) {
@@ -41,7 +43,7 @@ function ProgressBar({
       >
         <div className="bg-stipple absolute inset-0" aria-hidden />
         <div
-          className="absolute inset-y-0 left-0 bg-ink transition-[width]"
+          className={cn("absolute inset-y-0 left-0 transition-[width]", color ?? "bg-ink")}
           style={{ width: `${progress}%` }}
           aria-hidden
         />
@@ -58,7 +60,7 @@ function ProgressBar({
       aria-valuemax={100}
     >
       <div
-        className="h-full rounded-full bg-ink transition-all"
+        className={cn("h-full rounded-full transition-all", color ?? "bg-ink")}
         style={{ width: `${progress}%` }}
       />
     </div>
