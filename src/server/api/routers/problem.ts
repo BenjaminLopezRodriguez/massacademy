@@ -342,7 +342,7 @@ export const problemRouter = createTRPCRouter({
         id: e.id,
         content: e.content,
         title: e.title,
-        subtype: e.subtype as string,
+        subtype: e.subtype,
         postType: null as string | null,
         authorName: e.contributorName,
         createdAt: e.createdAt,

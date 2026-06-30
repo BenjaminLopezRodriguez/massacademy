@@ -26,6 +26,7 @@ type PostType = (typeof POST_TYPES)[number]["value"];
 
 function getMentionQuery(text: string, cursor: number): string | null {
   const before = text.slice(0, cursor);
+  // eslint-disable-next-line @typescript-eslint/prefer-regexp-exec
   const match = before.match(/@([^@\n]*)$/);
   return match ? (match[1] ?? "") : null;
 }
