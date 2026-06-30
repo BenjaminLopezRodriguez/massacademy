@@ -178,6 +178,7 @@ export const communityRouter = createTRPCRouter({
 
     const rows = await ctx.db
       .select({
+        id: categories.id,
         slug: categories.slug,
         name: categories.name,
         description: categories.description,
@@ -191,6 +192,7 @@ export const communityRouter = createTRPCRouter({
     return rows.map((row) => ({
       ...row,
       memberCount: Number(row.memberCount),
+      id: Number(row.id),
     }));
   }),
 

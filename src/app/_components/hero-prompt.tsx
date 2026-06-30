@@ -12,29 +12,29 @@ type JoinResult = {
   expertiseLabel: string;
 };
 
+type Role = "domain_expert" | "investor" | "operator" | "builder";
+
+const roles: { value: Role; label: string; description: string }[] = [
+  { value: "domain_expert", label: "Domain expert", description: "I've mastered a craft or field" },
+  { value: "investor", label: "Investor", description: "I back founders building from expertise" },
+  { value: "operator", label: "Operator", description: "I run businesses or operations" },
+  { value: "builder", label: "Builder", description: "I build products and software" },
+];
+
+function setCookie(name: string, value: string) {
+  document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=600; samesite=lax`;
+}
+
 export function HeroPrompt() {
   const router = useRouter();
   const [value, setValue] = useState("");
   const [joinResult, setJoinResult] = useState<JoinResult | null>(null);
-  const [displayName, setDisplayName] = useState("");
-  const [yearsExperience, setYearsExperience] = useState("");
-  const [bio, setBio] = useState("");
-  const [intent, setIntent] = useState("");
+  const [selectedRole, setSelectedRole] = useState<Role | null>(null);
 
   const joinRoom = api.community.joinRoom.useMutation({
     onSuccess: (data) => {
-      setDisplayName("");
-      setYearsExperience("");
-      setBio("");
-      setIntent("");
       setJoinResult(data);
-    },
-  });
-
-  const updateProfile = api.community.updateProfile.useMutation({
-    onSuccess: (_data, variables) => {
-      setJoinResult(null);
-      router.push(`/rooms/${variables.categorySlug}`);
+      setSelectedRole(null);
     },
   });
 
@@ -45,30 +45,21 @@ export function HeroPrompt() {
     joinRoom.mutate({ expertise });
   }
 
-  function handleProfileSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    if (!joinResult || updateProfile.isPending) return;
-
-    const years = yearsExperience.trim();
-    updateProfile.mutate({
-      categorySlug: joinResult.categorySlug,
-      displayName: displayName.trim(),
-      expertiseLabel: joinResult.expertiseLabel,
-      yearsExperience: years ? Number(years) : undefined,
-      bio: bio.trim() || undefined,
-      intent: intent.trim() || undefined,
-    });
+  function handleContinue() {
+    if (!joinResult || !selectedRole) return;
+    setCookie("pending_craft", value.trim());
+    setCookie("pending_role", selectedRole);
+    setCookie("pending_category", joinResult.categorySlug);
+    window.location.href =
+      "/api/auth/register?post_login_redirect_url=" +
+      encodeURIComponent("/feed");
   }
 
-  function handleSkip() {
+  function handleExplore() {
     if (!joinResult) return;
     const slug = joinResult.categorySlug;
     setJoinResult(null);
     router.push(`/rooms/${slug}`);
-  }
-
-  function handleClose() {
-    handleSkip();
   }
 
   return (
@@ -93,13 +84,7 @@ export function HeroPrompt() {
             aria-label="Join your room"
             className="absolute top-1/2 right-1.5 flex size-9 -translate-y-1/2 items-center justify-center rounded-full bg-accent text-accent-foreground transition-colors hover:bg-accent/90 disabled:opacity-40"
           >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              aria-hidden="true"
-            >
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <path
                 d="M3 8h10M9 4l4 4-4 4"
                 stroke="currentColor"
@@ -119,11 +104,11 @@ export function HeroPrompt() {
 
       <Sheet
         open={joinResult !== null}
-        onClose={handleClose}
-        title="Create your profile"
+        onClose={handleExplore}
+        title="One quick thing"
       >
         {joinResult && (
-          <form onSubmit={handleProfileSubmit} className="flex flex-col gap-6">
+          <div className="flex flex-col gap-8">
             <div>
               <p className="label">Your room</p>
               <p className="mt-2 text-lg text-ink">{joinResult.categoryName}</p>
@@ -133,89 +118,47 @@ export function HeroPrompt() {
               </p>
             </div>
 
-            <div className="flex flex-col gap-2">
-              <label htmlFor="profile-name" className="label">
-                Name
-              </label>
-              <input
-                id="profile-name"
-                type="text"
-                value={displayName}
-                onChange={(event) => setDisplayName(event.target.value)}
-                placeholder="How should we address you?"
-                required
-                autoFocus
-                className="h-11 w-full border border-rule bg-paper px-4 text-[0.9375rem] text-ink outline-none transition-colors placeholder:text-ink-faint focus:border-ink-faint"
-              />
+            <div>
+              <p className="label">What best describes you?</p>
+              <div className="mt-4 space-y-2">
+                {roles.map((role) => (
+                  <button
+                    key={role.value}
+                    type="button"
+                    onClick={() => setSelectedRole(role.value)}
+                    className={`w-full rounded-sm border px-4 py-3 text-left transition-colors ${
+                      selectedRole === role.value
+                        ? "border-ink bg-ink text-paper"
+                        : "border-rule text-ink hover:border-ink"
+                    }`}
+                  >
+                    <p className="text-sm font-medium">{role.label}</p>
+                    <p className={`mt-0.5 text-xs ${selectedRole === role.value ? "text-paper/70" : "text-ink-faint"}`}>
+                      {role.description}
+                    </p>
+                  </button>
+                ))}
+              </div>
             </div>
 
-            <div className="flex flex-col gap-2">
-              <label htmlFor="profile-years" className="label">
-                Years in your field
-              </label>
-              <input
-                id="profile-years"
-                type="number"
-                min={0}
-                max={80}
-                value={yearsExperience}
-                onChange={(event) => setYearsExperience(event.target.value)}
-                placeholder="e.g. 18"
-                className="h-11 w-full border border-rule bg-paper px-4 text-[0.9375rem] text-ink outline-none transition-colors placeholder:text-ink-faint focus:border-ink-faint"
-              />
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <label htmlFor="profile-bio" className="label">
-                What only comes from doing the work?
-              </label>
-              <textarea
-                id="profile-bio"
-                value={bio}
-                onChange={(event) => setBio(event.target.value)}
-                placeholder="What apprentices get wrong, what clients keep asking, what templates miss."
-                rows={4}
-                className="w-full resize-none border border-rule bg-paper px-4 py-3 text-[0.9375rem] leading-relaxed text-ink outline-none transition-colors placeholder:text-ink-faint focus:border-ink-faint"
-              />
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <label htmlFor="profile-intent" className="label">
-                What are you working on?
-              </label>
-              <textarea
-                id="profile-intent"
-                value={intent}
-                onChange={(event) => setIntent(event.target.value)}
-                placeholder="A sentence is enough. A tool, a product, a side project, anything built from what you know."
-                rows={2}
-                className="w-full resize-none border border-rule bg-paper px-4 py-3 text-[0.9375rem] leading-relaxed text-ink outline-none transition-colors placeholder:text-ink-faint focus:border-ink-faint"
-              />
-            </div>
-
-            {updateProfile.error && (
-              <p className="text-sm text-ink-muted">
-                Could not save your profile. Please try again.
-              </p>
-            )}
-
-            <div className="flex flex-col gap-3 pt-2">
+            <div className="flex flex-col gap-3">
               <button
-                type="submit"
-                disabled={updateProfile.isPending || !displayName.trim()}
+                type="button"
+                disabled={!selectedRole}
+                onClick={handleContinue}
                 className="inline-flex h-11 items-center justify-center bg-accent px-7 text-[0.8125rem] font-medium tracking-[0.02em] text-accent-foreground transition-colors hover:bg-accent/90 disabled:opacity-40"
               >
-                {updateProfile.isPending ? "Saving…" : "Continue to room"}
+                Create account →
               </button>
               <button
                 type="button"
-                onClick={handleSkip}
+                onClick={handleExplore}
                 className="text-sm text-ink-muted transition-colors hover:text-ink"
               >
-                Skip for now
+                Explore without signing up
               </button>
             </div>
-          </form>
+          </div>
         )}
       </Sheet>
     </>

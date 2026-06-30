@@ -1,0 +1,278 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Mass Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+        - generic [ref=e6]: Mass Academy
+      - navigation [ref=e7]:
+        - link "Feed" [ref=e8] [cursor=pointer]:
+          - /url: /feed
+        - link "Apply" [ref=e9] [cursor=pointer]:
+          - /url: /#apply
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]: Problem
+        - link "Relevant in Medical" [ref=e14] [cursor=pointer]:
+          - /url: /rooms/medical
+      - heading "ICU Handover Workflow Gap" [level=1] [ref=e15]
+      - paragraph [ref=e16]: Clinical shift handover requires nurses to manually re-document patient vitals, medications, and status updates that already exist in the EHR. This dual-entry creates documentation errors and accounts for 20–60 minutes of uncompensated cognitive labor per shift, per unit.
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: State
+          - paragraph [ref=e20]: Validating
+          - paragraph [ref=e21]: Evidence being collected — signal strengthening
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: Momentum
+          - generic [ref=e24]:
+            - generic [ref=e25]: "91"
+            - generic [ref=e26]: ▲ 8 this week
+        - generic [ref=e35]:
+          - paragraph [ref=e36]: Confidence
+          - generic [ref=e38]: "74"
+          - paragraph [ref=e39]: evidence quality
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Pattern
+          - generic [ref=e43]:
+            - generic [ref=e44]: Information Handoff
+            - paragraph [ref=e45]: Structured information that exists in one system must be re-entered into a human transition process. Appears wherever parties change at shift, season, or phase boundaries.
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: Observation
+          - generic [ref=e49]: →
+        - generic [ref=e50]:
+          - generic [ref=e51]: Problem
+          - generic [ref=e52]: →
+        - generic [ref=e53]:
+          - generic [ref=e54]: Evidence
+          - generic [ref=e55]: →
+        - generic [ref=e56]:
+          - generic [ref=e57]: Idea
+          - generic [ref=e58]: →
+        - generic [ref=e60]: Company
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: Timeline
+          - paragraph [ref=e65]: How knowledge accumulated on this problem
+          - list [ref=e66]:
+            - listitem [ref=e67]:
+              - generic [ref=e69]: ○
+              - generic [ref=e71]:
+                - generic [ref=e72]:
+                  - generic [ref=e73]: Observation
+                  - generic [ref=e74]: Jun 1
+                - paragraph [ref=e75]: "First observation: nurses transcribing vitals already in the EHR at every shift change."
+                - paragraph [ref=e76]: Maria Santos
+            - listitem [ref=e77]:
+              - generic [ref=e79]: ○
+              - generic [ref=e81]:
+                - generic [ref=e82]:
+                  - generic [ref=e83]: Observation
+                  - generic [ref=e84]: Jun 7
+                - paragraph [ref=e85]: "Independent confirmation from NICU: handover takes 45 minutes when a patient had a procedure."
+                - paragraph [ref=e86]: Alicia Torres
+            - listitem [ref=e87]:
+              - generic [ref=e89]: ○
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - generic [ref=e93]: Observation
+                  - generic [ref=e94]: Jun 12
+                - paragraph [ref=e95]: "Third independent observation: medication errors originate at the handover documentation gap."
+                - paragraph [ref=e96]: Dr. Ren Watanabe
+            - listitem [ref=e97]:
+              - generic [ref=e99]: ⬡
+              - generic [ref=e101]:
+                - generic [ref=e102]:
+                  - generic [ref=e103]: Pattern Linked
+                  - generic [ref=e104]: Jun 15
+                - paragraph [ref=e105]: "Pattern matched: Information Handoff — structural match detected across Healthcare, Construction, and Insurance."
+            - listitem [ref=e106]:
+              - generic [ref=e108]: ◆
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: Evidence
+                  - generic [ref=e113]: Jun 20
+                - paragraph [ref=e114]: "Customer interview: 12 charge nurses, 11/12 cite handover as #1 daily friction. Avg 22 min/shift lost."
+                - paragraph [ref=e115]: Dr. Ren Watanabe
+            - listitem [ref=e116]:
+              - generic [ref=e118]: ↔
+              - generic [ref=e120]:
+                - generic [ref=e121]:
+                  - generic [ref=e122]: Cross-Domain Match
+                  - generic [ref=e123]: Jun 24
+                - paragraph [ref=e124]: "Cross-domain match: Construction and Insurance experts independently describing the same handover pattern."
+            - listitem [ref=e125]:
+              - generic [ref=e127]: ◆
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - generic [ref=e130]: Evidence
+                  - generic [ref=e131]: Jun 27
+                - paragraph [ref=e132]: "Research: JAMA study — 70% of adverse events involve communication failures during care transitions."
+                - paragraph [ref=e133]: Maria Santos
+        - generic [ref=e134]:
+          - paragraph [ref=e135]: Observations (3)
+          - paragraph [ref=e136]: What experts have seen in the field
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - paragraph [ref=e139]: Every shift handover in the ICU involves 20 minutes of nurses transcribing vitals that are already in the EHR. The data exists — nobody has solved the handover workflow. We're doing manual ETL between systems at 6am every morning.
+              - generic [ref=e140]:
+                - generic [ref=e141]: Maria Santos
+                - generic [ref=e142]: ·
+                - generic [ref=e143]: Jun 1
+            - listitem [ref=e144]:
+              - paragraph [ref=e145]: Handover in our NICU can take 45 minutes if a patient had a procedure. Nothing is automated. We type everything twice into a paper sheet that gets scanned and lost.
+              - generic [ref=e146]:
+                - generic [ref=e147]: Alicia Torres
+                - generic [ref=e148]: ·
+                - generic [ref=e149]: Jun 7
+            - listitem [ref=e150]:
+              - paragraph [ref=e151]: The paper trail between day and night shift is where most medication errors originate. Night nurses can't verify what morning did without calling someone. EHRs don't help because nobody keeps them updated during handover.
+              - generic [ref=e152]:
+                - generic [ref=e153]: Dr. Ren Watanabe
+                - generic [ref=e154]: ·
+                - generic [ref=e155]: Jun 12
+        - generic [ref=e156]:
+          - paragraph [ref=e157]: Ideas (3)
+          - paragraph [ref=e158]: Proposed solutions and hypotheses
+          - list [ref=e159]:
+            - listitem [ref=e160]:
+              - generic [ref=e161]:
+                - paragraph [ref=e162]: Voice-first handover
+                - paragraph [ref=e163]: Nurses speak their observations at shift end. AI extracts structured data and updates the EHR automatically. Eliminates dual-entry entirely.
+              - generic [ref=e164]: Being validated
+            - listitem [ref=e165]:
+              - generic [ref=e166]:
+                - paragraph [ref=e167]: EHR delta brief
+                - paragraph [ref=e168]: Auto-generate a handover brief from the EHR delta between shifts — everything that changed since the last handover, structured, no manual input.
+              - generic [ref=e169]: Proposed
+            - listitem [ref=e170]:
+              - generic [ref=e171]:
+                - paragraph [ref=e172]: Structured digital handover form with EHR prefill
+                - paragraph [ref=e173]: A structured form that nurses fill in at handover, pre-populated with EHR data. Meets nurses where they are — familiar format, reduces re-entry by 80%.
+              - generic [ref=e174]: Validated
+        - generic [ref=e175]:
+          - paragraph [ref=e176]: Evidence (2)
+          - paragraph [ref=e177]: Interviews, research, and validation
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - generic [ref=e180]:
+                - generic [ref=e181]: interview
+                - generic [ref=e182]: supports
+              - paragraph [ref=e183]: Charge nurse interviews across 3 hospitals
+              - paragraph [ref=e184]: "12 charge nurses interviewed across three hospitals. 11/12 cited handover documentation as their #1 daily friction point. Average time lost: 22 minutes per shift. Multiplied across 3 shifts = 66 minutes per unit per day."
+              - generic [ref=e185]:
+                - generic [ref=e186]: Dr. Ren Watanabe
+                - generic [ref=e187]: ·
+                - generic [ref=e188]: Jun 20
+            - listitem [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: research
+                - generic [ref=e192]: supports
+              - paragraph [ref=e193]: "JAMA: communication failures in care transitions"
+              - paragraph [ref=e194]: "JAMA study: 70% of adverse events involve communication failures during care transitions. Handover is the highest-risk transition point in clinical settings."
+              - generic [ref=e195]:
+                - generic [ref=e196]: Maria Santos
+                - generic [ref=e197]: ·
+                - generic [ref=e198]: Jun 27
+        - generic [ref=e199]:
+          - paragraph [ref=e200]: Companies Forming
+          - list [ref=e201]:
+            - listitem [ref=e202]:
+              - generic [ref=e203]:
+                - paragraph [ref=e204]: Handover.ai
+                - paragraph [ref=e205]: Maria Santos, Sarah Chen
+              - generic [ref=e206]: Prototype
+        - generic [ref=e207]:
+          - paragraph [ref=e208]: Related Problems
+          - paragraph [ref=e209]: Same pattern in other industries
+          - list [ref=e210]:
+            - listitem [ref=e211]:
+              - generic [ref=e212]:
+                - generic [ref=e213]:
+                  - link "Construction Change Order Fragmentation" [ref=e214] [cursor=pointer]:
+                    - /url: /problems/8
+                  - paragraph [ref=e215]: Relevant in Construction · Information Handoff
+                - generic [ref=e216]: ↑ 58
+            - listitem [ref=e217]:
+              - generic [ref=e218]:
+                - generic [ref=e219]:
+                  - link "Insurance Claims Handoff Between Adjusters" [ref=e220] [cursor=pointer]:
+                    - /url: /problems/22
+                  - paragraph [ref=e221]: Relevant in Insurance · Information Handoff
+                - generic [ref=e222]: ↑ 44
+            - listitem [ref=e223]:
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - link "Agricultural Season Transition Planning" [ref=e226] [cursor=pointer]:
+                    - /url: /problems/31
+                  - paragraph [ref=e227]: Relevant in Agriculture · Information Handoff
+                - generic [ref=e228]: ↑ 29
+        - generic [ref=e229]:
+          - paragraph [ref=e230]: AI Interpretation
+          - paragraph [ref=e231]: "This problem has been independently identified by 47 experts across Healthcare, Construction, and Insurance — all describing the same underlying pattern: structured information that exists in one system must be re-entered into a human handover process. The Information Handoff pattern may represent a horizontal market opportunity, not a vertical one. A platform that solves the transition problem across industries could be more defensible than a healthcare-specific point solution."
+      - complementary [ref=e232]:
+        - generic [ref=e233]:
+          - paragraph [ref=e234]: Experts Engaged (4)
+          - list [ref=e235]:
+            - listitem [ref=e236]:
+              - link "Maria Santos ICU Nurse · 14 yrs Identifier" [ref=e237] [cursor=pointer]:
+                - /url: /profile/msantos
+                - paragraph [ref=e238]: Maria Santos
+                - paragraph [ref=e239]: ICU Nurse · 14 yrs
+                - paragraph [ref=e240]: Identifier
+            - listitem [ref=e241]:
+              - link "Dr. Ren Watanabe ER Physician · 18 yrs Evidence" [ref=e242] [cursor=pointer]:
+                - /url: /profile/rwatanabe
+                - paragraph [ref=e243]: Dr. Ren Watanabe
+                - paragraph [ref=e244]: ER Physician · 18 yrs
+                - paragraph [ref=e245]: Evidence
+            - listitem [ref=e246]:
+              - link "Priya Nair Healthcare Admin · 9 yrs Idea" [ref=e247] [cursor=pointer]:
+                - /url: /profile/pnair
+                - paragraph [ref=e248]: Priya Nair
+                - paragraph [ref=e249]: Healthcare Admin · 9 yrs
+                - paragraph [ref=e250]: Idea
+            - listitem [ref=e251]:
+              - link "Sarah Chen Medical Software · 18 yrs Idea" [ref=e252] [cursor=pointer]:
+                - /url: /profile/schen
+                - paragraph [ref=e253]: Sarah Chen
+                - paragraph [ref=e254]: Medical Software · 18 yrs
+                - paragraph [ref=e255]: Idea
+        - generic [ref=e257]:
+          - paragraph [ref=e258]: Unexpected Connections
+          - paragraph [ref=e259]: Outside your field — structurally similar
+          - list [ref=e260]:
+            - listitem [ref=e261]:
+              - link "Agriculture Farmers describe crop-rotation handover with identical structure. Both require transferring operational state between parties at fixed transition points. The documentation failure mode is the same." [ref=e262] [cursor=pointer]:
+                - /url: /rooms/agriculture
+                - paragraph [ref=e263]: Agriculture
+                - paragraph [ref=e264]: Farmers describe crop-rotation handover with identical structure.
+                - paragraph [ref=e265]: Both require transferring operational state between parties at fixed transition points. The documentation failure mode is the same.
+            - listitem [ref=e266]:
+              - link "Logistics Freight dispatchers lose 18 min per driver shift change to manual rebriefing. Driver state exists in dispatch software but must be verbally re-transferred at shift change." [ref=e267] [cursor=pointer]:
+                - /url: /rooms/operations
+                - paragraph [ref=e268]: Logistics
+                - paragraph [ref=e269]: Freight dispatchers lose 18 min per driver shift change to manual rebriefing.
+                - paragraph [ref=e270]: Driver state exists in dispatch software but must be verbally re-transferred at shift change.
+        - generic [ref=e271]:
+          - button "Add observation" [ref=e272]
+          - button "Contribute evidence" [ref=e273]
+          - button "Propose an idea" [ref=e274]
+  - contentinfo [ref=e275]:
+    - generic [ref=e276]:
+      - generic [ref=e277]:
+        - generic [ref=e278]:
+          - img [ref=e279]
+          - paragraph [ref=e280]: Mass Academy
+        - navigation [ref=e281]:
+          - link "Rooms" [ref=e282] [cursor=pointer]:
+            - /url: /rooms
+          - link "Program" [ref=e283] [cursor=pointer]:
+            - /url: /#program
+          - link "How it works" [ref=e284] [cursor=pointer]:
+            - /url: /#how-it-works
+          - link "Apply" [ref=e285] [cursor=pointer]:
+            - /url: /#apply
+      - paragraph [ref=e286]: © 2026

@@ -35,41 +35,41 @@ export default async function RoomPage({
       <Header />
       <main>
         <section className="mx-auto max-w-5xl px-6 pt-28 pb-20 md:px-12">
-          <p className="label">Your room</p>
+          <p className="label">Lens</p>
           <h1 className="mt-6 max-w-2xl font-serif text-4xl tracking-[-0.02em] text-ink md:text-5xl">
             {room.category.name}
           </h1>
           <p className="mt-6 max-w-xl text-base leading-[1.7] text-ink-muted md:text-lg">
             {room.category.description}
           </p>
+          <p className="mt-3 text-xs text-ink-faint">
+            A lens on the knowledge graph. The same observation may appear across multiple lenses without duplication.
+          </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4 text-sm text-ink-muted">
             <span>
               {room.memberCount}{" "}
-              {room.memberCount === 1 ? "person" : "people"} here
+              {room.memberCount === 1 ? "expert" : "experts"} active here
             </span>
             {room.you && (
               <>
                 <span className="text-ink-faint">·</span>
-                <span>
-                  You joined as{" "}
-                  <span className="text-ink">{room.you.expertiseLabel}</span>
-                </span>
+                <span className="text-ink">{room.you.expertiseLabel}</span>
               </>
             )}
           </div>
 
           {room.you && !room.you.profileComplete && (
             <div className="mt-10 rounded-sm border border-rule p-6 md:p-8">
-              <p className="label">Getting started</p>
+              <p className="label">Contribute to this lens</p>
               <ol className="mt-4 space-y-2 text-sm text-ink-muted">
                 <li className={room.you.displayName ? "text-ink-faint line-through" : "text-ink"}>
-                  1. Complete your profile
+                  1. Complete your expert profile
                 </li>
                 <li className={room.you.intent ? "text-ink-faint line-through" : "text-ink"}>
-                  2. Share what you&apos;re working on
+                  2. Share an observation or problem you&apos;ve identified
                 </li>
-                <li>3. Meet others in your field</li>
+                <li>3. Discover experts working on adjacent problems</li>
               </ol>
             </div>
           )}
@@ -83,7 +83,7 @@ export default async function RoomPage({
 
           {membersWithIntent.length > 0 && (
             <div className="mt-14">
-              <p className="label">What people are working on</p>
+              <p className="label">What experts are exploring</p>
               <ul className="mt-6 divide-y divide-rule border-y border-rule">
                 {membersWithIntent.map((member) => (
                   <li key={member.id} className="py-5">
@@ -104,7 +104,7 @@ export default async function RoomPage({
 
           {room.members.length > 0 && (
             <div className="mt-14">
-              <p className="label">People in this room</p>
+              <p className="label">Experts active here</p>
               <ul className="mt-6 divide-y divide-rule border-y border-rule">
                 {room.members.map((member) => (
                   <li
@@ -142,12 +142,12 @@ export default async function RoomPage({
 
           {room.members.length === 0 && (
             <p className="mt-14 text-base text-ink-muted">
-              You&apos;re the first person in this room. Others in your field
-              will find you here.
+              No experts active here yet. Add an observation from your field —
+              it may surface across adjacent lenses.
             </p>
           )}
 
-          <div className="mt-16 border-t border-rule pt-10">
+          <div className="mt-12 border-t border-rule pt-10">
             <p className="text-sm text-ink-muted">
               Ready to go further?{" "}
               <Link

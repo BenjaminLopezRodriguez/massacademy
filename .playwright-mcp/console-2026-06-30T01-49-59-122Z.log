@@ -1,0 +1,4 @@
+[   10787ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_react-dom_cf23a88f._.js:14537
+[   10819ms] [LOG] %c%s%c [TRPC] problem.getById took 10198ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__ec32e0fa._.js?3:1138
+[  132382ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[  132479ms] [LOG] [Fast Refresh] done in 199ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
