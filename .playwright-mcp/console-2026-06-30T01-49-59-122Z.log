@@ -2,3 +2,551 @@
 [   10819ms] [LOG] %c%s%c [TRPC] problem.getById took 10198ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__ec32e0fa._.js?3:1138
 [  132382ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
 [  132479ms] [LOG] [Fast Refresh] done in 199ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[22977809ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_react-dom_cf23a88f._.js:14537
+[22977831ms] [LOG] %c%s%c [TRPC] problem.getById took 3279ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__5bdbd031._.js?3:1742
+[22986141ms] [LOG] %c%s%c [TRPC] community.listRooms took 2290ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22986141ms] [LOG] %c%s%c [TRPC] problem.list took 3103ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22986173ms] [WARNING] Skipping auto-scroll behavior due to `position: sticky` or `position: fixed` on element: JSHandle@node @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_47ff579a._.js:252
+[22986180ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. In a future version, Next.js will no longer automatically disable smooth scrolling during route transitions. To prepare for this change, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_daa7b628._.js:1014
+[22986903ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[22987246ms] [LOG] [Fast Refresh] done in 236ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[22989293ms] [LOG] %c%s%c [TRPC] community.listRooms took 2410ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22989293ms] [LOG] %c%s%c [TRPC] problem.list took 4072ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991836ms] [LOG] %c%s%c [TRPC] community.listRooms took 3404ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991836ms] [LOG] %c%s%c [TRPC] problem.list took 4557ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991836ms] [LOG] %c%s%c [TRPC] community.listRooms took 3225ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991836ms] [LOG] %c%s%c [TRPC] problem.list took 4372ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991841ms] [LOG] %c%s%c [TRPC] community.listRooms took 3091ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991841ms] [LOG] %c%s%c [TRPC] problem.list took 4324ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991841ms] [LOG] %c%s%c [TRPC] community.listRooms took 3248ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991841ms] [LOG] %c%s%c [TRPC] problem.list took 4483ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__698dc463._.js?147:1373
+[22991860ms] [WARNING] Skipping auto-scroll behavior due to `position: sticky` or `position: fixed` on element: JSHandle@node @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_47ff579a._.js:252
+[22993872ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[22993899ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[22999372ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[22999475ms] [LOG] [Fast Refresh] done in 204ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23002319ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23002346ms] [LOG] [Fast Refresh] done in 51ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23005974ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23006099ms] [LOG] [Fast Refresh] done in 228ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23022479ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23022560ms] [LOG] [Fast Refresh] done in 181ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23025249ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23025711ms] [LOG] [Fast Refresh] done in 292ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23028025ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 349ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23028025ms] [LOG] %c%s%c [TRPC] community.listRooms took 2277ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23039678ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23039730ms] [LOG] [Fast Refresh] done in 153ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23253102ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23253514ms] [LOG] [Fast Refresh] done in 178ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23255719ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 313ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23255719ms] [LOG] %c%s%c [TRPC] community.listRooms took 1961ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23255722ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 609ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23255722ms] [LOG] %c%s%c [TRPC] community.listRooms took 2060ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23255943ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 439ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23255943ms] [LOG] %c%s%c [TRPC] community.listRooms took 2235ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23256064ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 695ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23256064ms] [LOG] %c%s%c [TRPC] community.listRooms took 2268ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__33ff05a3._.js?312:1280
+[23276211ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23276832ms] [LOG] [Fast Refresh] done in 497ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23279217ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 364ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__ad0dc1d7._.js?412:1334
+[23279217ms] [LOG] %c%s%c [TRPC] community.listRooms took 2350ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__ad0dc1d7._.js?412:1334
+[23281913ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23281972ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23284254ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 625ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__ad0dc1d7._.js?412:1334
+[23284254ms] [LOG] %c%s%c [TRPC] community.listRooms took 1984ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__ad0dc1d7._.js?412:1334
+[23383771ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23383940ms] [LOG] [Fast Refresh] done in 246ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23387025ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23387146ms] [LOG] [Fast Refresh] done in 199ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23388398ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23388547ms] [LOG] [Fast Refresh] done in 208ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23388663ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23388854ms] [LOG] [Fast Refresh] done in 292ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23389022ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23389097ms] [LOG] [Fast Refresh] done in 176ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23391134ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 498ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23391135ms] [LOG] %c%s%c [TRPC] community.listRooms took 2224ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23397294ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23397367ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23397903ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23397959ms] [LOG] [Fast Refresh] done in 97ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23398566ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23398646ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23399817ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 715ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23399817ms] [LOG] %c%s%c [TRPC] community.listRooms took 2379ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23400323ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 702ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23400324ms] [LOG] %c%s%c [TRPC] community.listRooms took 2350ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23400897ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23401021ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 523ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23401021ms] [LOG] %c%s%c [TRPC] community.listRooms took 2341ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23401032ms] [LOG] [Fast Refresh] done in 155ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23403552ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 690ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23403553ms] [LOG] %c%s%c [TRPC] community.listRooms took 2330ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23416419ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23416867ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23419027ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 712ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23419027ms] [LOG] %c%s%c [TRPC] community.listRooms took 2029ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23419252ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 795ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23419252ms] [LOG] %c%s%c [TRPC] community.listRooms took 2127ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23419252ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 533ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23419253ms] [LOG] %c%s%c [TRPC] community.listRooms took 2327ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23502996ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23503008ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23517171ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23517280ms] [LOG] [Fast Refresh] done in 208ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23767566ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23767602ms] [LOG] [Fast Refresh] done in 136ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23779064ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23779528ms] [LOG] [Fast Refresh] done in 544ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23779632ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23779748ms] [LOG] [Fast Refresh] done in 58ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23780129ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23780617ms] [LOG] [Fast Refresh] done in 564ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23780729ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23780844ms] [LOG] [Fast Refresh] done in 217ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23781142ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23781371ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23783597ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 609ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23783597ms] [LOG] %c%s%c [TRPC] community.listRooms took 3548ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__49c66267._.js?487:1358
+[23784302ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1142ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784302ms] [LOG] %c%s%c [TRPC] community.listRooms took 3239ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784358ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1145ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784358ms] [LOG] %c%s%c [TRPC] community.listRooms took 3481ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784386ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1051ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784386ms] [LOG] %c%s%c [TRPC] community.listRooms took 3412ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784437ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 980ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784437ms] [LOG] %c%s%c [TRPC] community.listRooms took 3310ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784569ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 466ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23784569ms] [LOG] %c%s%c [TRPC] community.listRooms took 2658ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23786128ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 466ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23786128ms] [LOG] %c%s%c [TRPC] community.listRooms took 2476ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23786737ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 710ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23786737ms] [LOG] %c%s%c [TRPC] community.listRooms took 2194ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23786902ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 615ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23786902ms] [LOG] %c%s%c [TRPC] community.listRooms took 2438ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23787083ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 799ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23787083ms] [LOG] %c%s%c [TRPC] community.listRooms took 2364ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23787083ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 540ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23787083ms] [LOG] %c%s%c [TRPC] community.listRooms took 2446ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__65b2d183._.js?563:1393
+[23794825ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23795168ms] [LOG] [Fast Refresh] done in 422ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23891674ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23891850ms] [LOG] [Fast Refresh] done in 277ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23901316ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23901448ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23925103ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23925206ms] [LOG] [Fast Refresh] done in 174ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23932811ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23933731ms] [LOG] [Fast Refresh] done in 939ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23933845ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23934156ms] [LOG] [Fast Refresh] done in 413ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23936952ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 810ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23936952ms] [LOG] %c%s%c [TRPC] community.listRooms took 2725ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23937014ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 810ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23937014ms] [LOG] %c%s%c [TRPC] community.listRooms took 2525ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23937399ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 486ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23937399ms] [LOG] %c%s%c [TRPC] community.listRooms took 2329ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23939414ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 462ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23939414ms] [LOG] %c%s%c [TRPC] community.listRooms took 2324ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23939651ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 575ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23939651ms] [LOG] %c%s%c [TRPC] community.listRooms took 2340ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23939692ms] [LOG] %c >> mutation #1 %cuser.upsert%c %O 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+   
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[23939693ms] [LOG] %c >> mutation #2 %cuser.upsert%c %O 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+   
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[23940345ms] [LOG] %c << mutation #2 %cuser.upsert%c %O 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+   
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, result: Object, elapsedMs: 652, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[23940447ms] [LOG] %c << mutation #1 %cuser.upsert%c %O 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+   
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, result: Object, elapsedMs: 755, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[23943742ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23944217ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23944337ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23944381ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23944561ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23944801ms] [LOG] [Fast Refresh] done in 341ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23947364ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1162ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23947364ms] [LOG] %c%s%c [TRPC] community.listRooms took 3121ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23947447ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1153ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23947447ms] [LOG] %c%s%c [TRPC] community.listRooms took 3068ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23947629ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 578ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23947629ms] [LOG] %c%s%c [TRPC] community.listRooms took 2339ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23947822ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23947877ms] [LOG] [Fast Refresh] done in 155ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23948003ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23948089ms] [LOG] [Fast Refresh] done in 187ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23948253ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23948407ms] [LOG] [Fast Refresh] done in 254ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23948520ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 744ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23948520ms] [LOG] %c%s%c [TRPC] community.listRooms took 3138ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23950129ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 855ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23950129ms] [LOG] %c%s%c [TRPC] community.listRooms took 2549ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[23976417ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23976694ms] [LOG] [Fast Refresh] done in 380ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[23984029ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[23984149ms] [LOG] [Fast Refresh] done in 221ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24057349ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24057510ms] [LOG] [Fast Refresh] done in 263ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24105849ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24106008ms] [LOG] [Fast Refresh] done in 260ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24246954ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24247349ms] [LOG] [Fast Refresh] done in 496ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24360752ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24360975ms] [LOG] [Fast Refresh] done in 371ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24361132ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24361191ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24364076ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364077ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364077ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364077ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364077ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364077ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364077ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364077ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364078ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364078ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[24364079ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1401ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__7cab2f9f._.js?727:1160
+[24364079ms] [LOG] %c%s%c [TRPC] community.listRooms took 2281ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__7cab2f9f._.js?727:1160
+[24364156ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 512ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__7cab2f9f._.js?727:1160
+[24364156ms] [LOG] %c%s%c [TRPC] community.listRooms took 2069ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__7cab2f9f._.js?727:1160
+[24382741ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24382925ms] [LOG] [Fast Refresh] done in 261ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24387869ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24387912ms] [LOG] [Fast Refresh] done in 77ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24388070ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24388248ms] [LOG] [Fast Refresh] done in 279ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24388510ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24388560ms] [LOG] [Fast Refresh] done in 151ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24390840ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 484ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[24390840ms] [LOG] %c%s%c [TRPC] community.listRooms took 2381ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[24511150ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24511541ms] [LOG] [Fast Refresh] done in 423ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24511724ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[24511957ms] [LOG] [Fast Refresh] done in 333ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[24514278ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 923ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[24514278ms] [LOG] %c%s%c [TRPC] community.listRooms took 2222ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?642:1310
+[25115062ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25115127ms] [LOG] [Fast Refresh] done in 146ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25117551ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117551ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117551ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117551ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117551ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117552ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117552ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117552ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117552ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117552ms] [LOG] %c%s%c background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   {severity_local: NOTICE, severity: NOTICE, code: 42622, message: identifier "observations_observationProblems_probl…servationProblems_problem_problemPatterns_patter", file: scansup.c} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4874
+[25117552ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 2025ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?785:1327
+[25117725ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1242ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?785:1327
+[25117944ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1324ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?785:1327
+[25118129ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25118131ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25118350ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 687ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?785:1327
+[25118550ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 655ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?785:1327
+[25118709ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 627ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?785:1327
+[25118735ms] TRPCError: column observations.postType does not exist
+    at resolveErrorDev (http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4306:48)
+    at processFullStringRow (http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4554:29)
+    at processFullBinaryRow (http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4513:9)
+    at processBinaryChunk (http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4622:98)
+    at progress (http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_7d56ae35._.js:4790:25)
+[25132506ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25132601ms] [LOG] [Fast Refresh] done in 194ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25132755ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25132940ms] [LOG] [Fast Refresh] done in 285ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25136826ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_react-dom_cf23a88f._.js:14537
+[25136840ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 474ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25136840ms] [LOG] %c%s%c [TRPC] community.listRooms took 2474ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25136884ms] [LOG] %c >> mutation #1 %cuser.upsert%c %O 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+   
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[25137643ms] [LOG] %c << mutation #1 %cuser.upsert%c %O 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+   
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, result: Object, elapsedMs: 758, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[25138166ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25138248ms] [LOG] [Fast Refresh] done in 57ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25138411ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25138587ms] [LOG] [Fast Refresh] done in 278ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25141016ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 391ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141016ms] [LOG] %c%s%c [TRPC] community.listRooms took 2391ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141022ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 756ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141022ms] [LOG] %c%s%c [TRPC] community.listRooms took 2243ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141297ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 641ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141297ms] [LOG] %c%s%c [TRPC] community.listRooms took 2384ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141474ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 510ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141474ms] [LOG] %c%s%c [TRPC] community.listRooms took 2486ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141672ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 601ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25141672ms] [LOG] %c%s%c [TRPC] community.listRooms took 2833ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25142165ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25142236ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25142612ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25142638ms] [LOG] [Fast Refresh] done in 127ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25143549ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 539ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25143549ms] [LOG] %c%s%c [TRPC] community.listRooms took 3045ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25145763ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1158ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25145763ms] [LOG] %c%s%c [TRPC] community.listRooms took 3237ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25145777ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1070ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25145777ms] [LOG] %c%s%c [TRPC] community.listRooms took 3167ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25145813ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 1072ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25145813ms] [LOG] %c%s%c [TRPC] community.listRooms took 3163ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25146014ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25146068ms] [LOG] [Fast Refresh] done in 154ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25148454ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 561ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25148454ms] [LOG] %c%s%c [TRPC] community.listRooms took 2420ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25148524ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 757ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25148524ms] [LOG] %c%s%c [TRPC] community.listRooms took 2611ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25148771ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 352ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25148771ms] [LOG] %c%s%c [TRPC] community.listRooms took 2696ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25151059ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25151384ms] [LOG] [Fast Refresh] done in 328ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25153672ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 694ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25153672ms] [LOG] %c%s%c [TRPC] community.listRooms took 2265ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25165287ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25165423ms] [LOG] [Fast Refresh] done in 147ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25165488ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/feed?_rsc=e8PLFoyW0Bzq5A8l:0
+[25168538ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_react-dom_cf23a88f._.js:14537
+[25168546ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 542ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25168546ms] [LOG] %c%s%c [TRPC] community.listRooms took 2428ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25168574ms] [LOG] %c >> mutation #1 %cuser.upsert%c %O 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+   
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[25169520ms] [LOG] %c << mutation #1 %cuser.upsert%c %O 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+   
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, result: Object, elapsedMs: 945, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[25187339ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25187516ms] [LOG] [Fast Refresh] done in 264ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25193511ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25193582ms] [LOG] [Fast Refresh] done in 101ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25193727ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25194150ms] [LOG] [Fast Refresh] done in 525ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25196751ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 740ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25196751ms] [LOG] %c%s%c [TRPC] community.listRooms took 2576ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25496706ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25496866ms] [LOG] [Fast Refresh] done in 261ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25666307ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25666455ms] [LOG] [Fast Refresh] done in 253ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25676510ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25676602ms] [LOG] [Fast Refresh] done in 180ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25685379ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25685926ms] [LOG] [Fast Refresh] done in 230ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25686033ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25686099ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25688495ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 668ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25688496ms] [LOG] %c%s%c [TRPC] community.listRooms took 2343ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25688496ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 461ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25688496ms] [LOG] %c%s%c [TRPC] community.listRooms took 2428ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25688538ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 516ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25688538ms] [LOG] %c%s%c [TRPC] community.listRooms took 2587ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25688803ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25688862ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25689580ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25689606ms] [LOG] [Fast Refresh] done in 65ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25691379ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25691529ms] [LOG] [Fast Refresh] done in 250ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25691606ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 666ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25691606ms] [LOG] %c%s%c [TRPC] community.listRooms took 2947ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25691606ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 633ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25691607ms] [LOG] %c%s%c [TRPC] community.listRooms took 2812ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25691716ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 472ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25691716ms] [LOG] %c%s%c [TRPC] community.listRooms took 2852ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25693001ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25693293ms] [LOG] [Fast Refresh] done in 315ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25694555ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 680ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25694555ms] [LOG] %c%s%c [TRPC] community.listRooms took 2972ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25695977ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25696030ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25696137ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 544ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25696137ms] [LOG] %c%s%c [TRPC] community.listRooms took 2463ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25696256ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25696407ms] [LOG] [Fast Refresh] done in 252ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25696539ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 562ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25696539ms] [LOG] %c%s%c [TRPC] community.listRooms took 2773ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25697266ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 334ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25697266ms] [LOG] %c%s%c [TRPC] community.listRooms took 2645ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25698847ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 733ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25698847ms] [LOG] %c%s%c [TRPC] community.listRooms took 2396ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25699128ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 422ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25699128ms] [LOG] %c%s%c [TRPC] community.listRooms took 2577ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25699791ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 669ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25699792ms] [LOG] %c%s%c [TRPC] community.listRooms took 2469ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25701460ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 361ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25701460ms] [LOG] %c%s%c [TRPC] community.listRooms took 2548ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25836716ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25836756ms] [ERROR] ./src/server/api/routers/user.ts:238:1
+Parsing ecmascript source code failed
+  236 |       });
+  237 |     }),
+> 238 | }).extend({
+      | ^
+  239 |   getMyProfile: publicProcedure
+  240 |     .input(
+  241 |       z.object({
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/server/api/routers/user.ts
+    ./src/server/api/root.ts
+    ./src/trpc/server.ts
+    ./src/app/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_daa7b628._.js:2405
+[25836762ms] [LOG] {file: Object} @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_next-devtools_index_0a245f90.js:16058
+[25871044ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25871386ms] [LOG] [Fast Refresh] done in 347ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25871770ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25871842ms] [LOG] [Fast Refresh] done in 172ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25873867ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 573ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25873867ms] [LOG] %c%s%c [TRPC] community.listRooms took 2054ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25873995ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 712ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25873995ms] [LOG] %c%s%c [TRPC] community.listRooms took 2266ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25874186ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25874198ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 304ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25874198ms] [LOG] %c%s%c [TRPC] community.listRooms took 2357ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25874200ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25876225ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 386ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25876225ms] [LOG] %c%s%c [TRPC] community.listRooms took 2053ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25876361ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 577ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25876361ms] [LOG] %c%s%c [TRPC] community.listRooms took 2105ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25876416ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 707ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25876416ms] [LOG] %c%s%c [TRPC] community.listRooms took 2324ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25878728ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 432ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25878728ms] [LOG] %c%s%c [TRPC] community.listRooms took 2354ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25883058ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25883258ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/feed?_rsc=e8PLFoyW0Bzq5A8l:0
+[25883274ms] [LOG] [Fast Refresh] done in 165ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25883379ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[25883416ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[25885922ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_compiled_react-dom_cf23a88f._.js:14537
+[25885929ms] [LOG] %c%s%c [TRPC] problem.activityFeed took 684ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25885929ms] [LOG] %c%s%c [TRPC] community.listRooms took 2120ms to execute background: #e6e6e6;background: light-dark(rgba(0,0,0,0.1), rgba(255,255,255,0.25));color: #000000;color: light-dark(#000000, #ffffff);border-radius: 2px  Server   @ about://React/Server/file:///Users/benji/projects/massacademy/.next/server/chunks/ssr/%5Broot-of-the-server%5D__04b224b2._.js?3:1327
+[25885956ms] [LOG] %c >> mutation #1 %cuser.upsert%c %O 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+   
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #c5a3fc;
+    color: black;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[25886928ms] [LOG] %c << mutation #1 %cuser.upsert%c %O 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+   
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: bold; 
+    background-color: #904dfc;
+    color: white;
+    padding: 2px;
+  ; font-weight: normal; {input: Object, result: Object, elapsedMs: 972, context: Object} @ http://localhost:3000/_next/static/chunks/node_modules__pnpm_a9ea82ce._.js:2472
+[26056301ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26056595ms] [LOG] [Fast Refresh] done in 365ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26058315ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26058453ms] [LOG] [Fast Refresh] done in 239ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26230123ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26230297ms] [LOG] [Fast Refresh] done in 268ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26237941ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26238266ms] [LOG] [Fast Refresh] done in 427ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26261163ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26261460ms] [LOG] [Fast Refresh] done in 397ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26266181ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26266251ms] [LOG] [Fast Refresh] done in 171ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26279428ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26279454ms] [LOG] [Fast Refresh] done in 54ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26307784ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26308218ms] [LOG] [Fast Refresh] done in 536ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26308355ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26308510ms] [LOG] [Fast Refresh] done in 255ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816
+[26309353ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5956
+[26309576ms] [LOG] [Fast Refresh] done in 324ms @ http://localhost:3000/_next/static/chunks/15cf0_next_dist_client_caadf709._.js:5816

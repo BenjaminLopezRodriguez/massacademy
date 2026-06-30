@@ -1,0 +1,134 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Mass Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e5]
+        - generic [ref=e6]: Mass Academy
+      - navigation [ref=e7]:
+        - link "Feed" [ref=e8] [cursor=pointer]:
+          - /url: /feed
+        - generic [ref=e9]:
+          - button "Sign in or apply" [expanded] [active] [ref=e10]:
+            - img [ref=e12]
+          - menu [ref=e132]:
+            - menuitem "Sign in" [ref=e133] [cursor=pointer]
+            - menuitem "Apply" [ref=e134] [cursor=pointer]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - heading "What you love can't be copied." [level=1] [ref=e17]
+      - paragraph [ref=e18]: For people who've put in the years and take pride in their craft. Join your field's room, or apply to build from what you know.
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: Describe your expertise
+          - generic [ref=e22]:
+            - textbox "Describe your expertise" [ref=e23]:
+              - /placeholder: What's your craft? Electrician, lawyer, illustrator…
+            - button "Join your room" [disabled] [ref=e24]:
+              - img [ref=e25]
+        - generic [ref=e27]:
+          - link "How it works" [ref=e28] [cursor=pointer]:
+            - /url: "#how-it-works"
+          - link "Apply to the program" [ref=e29] [cursor=pointer]:
+            - /url: "#apply"
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: What is Mass Academy?
+        - paragraph [ref=e34]: Mass Academy is a program for people who've mastered a craft and want to turn that knowledge into software or agents. We advise, we build, and we introduce you to investors. You don't write code. You don't need a pitch deck.
+      - paragraph [ref=e36]: What you get
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: "01"
+          - paragraph [ref=e40]: Advisor
+          - paragraph [ref=e41]: Someone in your corner on strategy and what to build. You stay the expert.
+        - generic [ref=e42]:
+          - generic [ref=e43]: "02"
+          - paragraph [ref=e44]: Build
+          - paragraph [ref=e45]: We turn your know-how into software and agents. You don't write code.
+        - generic [ref=e46]:
+          - generic [ref=e47]: "03"
+          - paragraph [ref=e48]: Investors
+          - paragraph [ref=e49]: Introductions when you're ready to raise.
+      - paragraph [ref=e50]: Up to 15% equity. In return, you get an advisor.
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: People who've put in the reps.
+        - paragraph [ref=e55]: No MBA. No coding bootcamp. No pitch deck. We're looking for people who love what they do, have spent years in the work, and know their craft inside out.
+      - list [ref=e56]:
+        - listitem [ref=e57]: Electricians.
+        - listitem [ref=e58]: Lawyers.
+        - listitem [ref=e59]: Therapists.
+        - listitem [ref=e60]: Artists.
+        - listitem [ref=e61]: Plumbers.
+        - listitem [ref=e62]: Nurses.
+        - listitem [ref=e63]: Accountants.
+        - listitem [ref=e64]: Teachers.
+        - listitem [ref=e65]: Welders.
+        - listitem [ref=e66]: Pilots.
+        - listitem [ref=e67]: Geologists.
+        - listitem [ref=e68]: Mechanics.
+      - paragraph [ref=e69]: If you've spent your career learning things that only come from doing the work, Mass Academy was built for you.
+    - generic [ref=e71]:
+      - paragraph [ref=e73]: How it works
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - paragraph [ref=e76]: Explore
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - generic [ref=e79]: "01"
+              - generic [ref=e80]: Enter your craft
+            - listitem [ref=e81]:
+              - generic [ref=e82]: "02"
+              - generic [ref=e83]: Join your field's room
+            - listitem [ref=e84]:
+              - generic [ref=e85]: "03"
+              - generic [ref=e86]: See what peers are building
+        - generic [ref=e87]:
+          - paragraph [ref=e88]: Build
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - generic [ref=e91]: "01"
+              - generic [ref=e92]: Apply
+            - listitem [ref=e93]:
+              - generic [ref=e94]: "02"
+              - generic [ref=e95]: We read every application personally
+            - listitem [ref=e96]:
+              - generic [ref=e97]: "03"
+              - generic [ref=e98]: "Work together: advise, build, raise"
+    - generic [ref=e101]:
+      - heading "Apply" [level=2] [ref=e102]
+      - paragraph [ref=e103]: Up to 15% equity for an advisor. We help you build software and agents and introduce you to investors. Tell us what you're working on.
+      - paragraph [ref=e104]: It's never too early to apply.
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e107]: Name
+          - textbox "Name" [ref=e108]
+        - generic [ref=e109]:
+          - generic [ref=e110]: Email
+          - textbox "Email" [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e113]: Your craft
+          - textbox "Your craft" [ref=e114]:
+            - /placeholder: Electrician, lawyer, therapist…
+        - generic [ref=e115]:
+          - generic [ref=e116]: What do you want to build?
+          - textbox "What do you want to build?" [ref=e117]:
+            - /placeholder: Optional. A sentence is enough.
+        - button "Submit" [ref=e118]
+  - contentinfo [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - img [ref=e123]
+          - paragraph [ref=e124]: Mass Academy
+        - navigation [ref=e125]:
+          - link "Rooms" [ref=e126] [cursor=pointer]:
+            - /url: /rooms
+          - link "Program" [ref=e127] [cursor=pointer]:
+            - /url: /#program
+          - link "How it works" [ref=e128] [cursor=pointer]:
+            - /url: /#how-it-works
+          - link "Apply" [ref=e129] [cursor=pointer]:
+            - /url: /#apply
+      - paragraph [ref=e130]: © 2026
+  - alert [ref=e131]

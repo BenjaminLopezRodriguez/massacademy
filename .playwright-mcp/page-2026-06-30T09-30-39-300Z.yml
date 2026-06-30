@@ -1,0 +1,271 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Feed" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=f1e5]
+        - generic [ref=f1e6]: Feed
+      - navigation [ref=f1e7]:
+        - link "Feed" [ref=f1e8] [cursor=pointer]:
+          - /url: /feed
+        - button "Account menu" [ref=f1e10]:
+          - generic [ref=f1e11]: BL
+  - generic [ref=f1e12]:
+    - generic [ref=f1e13]:
+      - generic [ref=f1e14]:
+        - button "Observation" [ref=f1e15]
+        - button "Idea" [ref=f1e16]
+        - button "Request" [ref=f1e17]
+        - button "Customer Insight" [ref=f1e18]
+        - button "Case Study" [ref=f1e19]
+        - button "Prototype" [ref=f1e20]
+        - button "Milestone" [ref=f1e21]
+        - button "Question" [ref=f1e22]
+        - button "Hiring" [ref=f1e23]
+        - button "Funding" [ref=f1e24]
+        - button "Workflow" [ref=f1e25]
+        - button "Problem Report" [ref=f1e26]
+      - textbox "What did you observe? Type @ to tag an industry…" [ref=f1e27]
+    - list [ref=f1e28]:
+      - listitem [ref=f1e29]:
+        - generic [ref=f1e30]:
+          - generic [ref=f1e32]: Observation
+          - generic [ref=f1e33]: 0M AGO
+        - paragraph [ref=f1e34]: "When you go on medical leave, your only job should be to get better. Instead people spend it fighting insurance, filling out forms, tracking deadlines, and managing HR. Nobody has a Sylvia — a person who handles all of that for you. Building Candle: the scope is work harms you → health fails → medical leave → disability/benefits → recovery → return or transition. All of it."
+        - generic [ref=f1e37]: Benji Lopez
+      - listitem [ref=f1e38]:
+        - generic [ref=f1e39]:
+          - generic [ref=f1e41]: Prototype
+          - generic [ref=f1e42]: 0M AGO
+        - paragraph [ref=f1e43]: "Siro: dark-first social with five post types — photo, video, voice, check-in, thought. Card redesign shipped with safe-zone layout and post-type badges. Likes system live on iOS and web. The thesis is authenticity over curation — BeReal-adjacent but without the forced simultaneity. Camera-first on iOS, browsing on web."
+        - generic [ref=f1e46]: Benji Lopez
+      - listitem [ref=f1e47]:
+        - generic [ref=f1e48]:
+          - generic [ref=f1e50]: Observation
+          - generic [ref=f1e51]: 0M AGO
+        - paragraph [ref=f1e52]: "Africa has the largest physical-world data gap for AI training. Ground-truth data — what's actually on the ground, verified by human observers — is what makes AI models reliable in the real world. Pivoted Afreka from fractional real estate to an active observation network: people generating verified physical-world data on demand. AI infrastructure, not a consumer app."
+        - generic [ref=f1e55]: Benji Lopez
+      - listitem [ref=f1e56]:
+        - generic [ref=f1e57]:
+          - generic [ref=f1e59]: Observation
+          - generic [ref=f1e60]: 1M AGO
+        - paragraph [ref=f1e61]: "The most valuable signal in commerce is pre-purchase intent — and nobody captures it. Merchants launch drops blind. Shoppers miss items they wanted before they existed. Working on BagUp: a demand layer where shoppers earmark items before inventory exists, merchants read that signal and execute drops, and partners handle local fulfillment. Intent before inventory."
+        - generic [ref=f1e64]: Benji Lopez
+      - listitem [ref=f1e65]:
+        - generic [ref=f1e66]:
+          - generic [ref=f1e68]: Milestone
+          - generic [ref=f1e69]: 1M AGO
+        - paragraph [ref=f1e70]: Juce rooms are live. iOS users can squeeze moments from live audio conversations and post clips to a feed. Room creation is instant — tap the FAB, you're in. Wired to real API, real data, no dummies. The core mechanic is working.
+        - generic [ref=f1e73]: Benji Lopez
+      - listitem [ref=f1e74]:
+        - generic [ref=f1e75]:
+          - generic [ref=f1e77]: Milestone
+          - generic [ref=f1e78]: 2M AGO
+        - paragraph [ref=f1e79]: "Shipped Zend across five surfaces in one sprint: iOS Share Extension, Chrome extension, Slack bot, WhatsApp bot, and web. The same \"send a file\" action now lives natively wherever someone is already working. No one should have to open a new app to share something."
+        - generic [ref=f1e82]: Benji Lopez
+      - listitem [ref=f1e83]:
+        - generic [ref=f1e84]:
+          - generic [ref=f1e86]: Milestone
+          - generic [ref=f1e87]: 7M AGO
+        - paragraph [ref=f1e88]: MassAcademy now has an agent-readable terminal interface. Claude can query the problem graph, browse observations and evidence, and write new posts directly from the command line — no web server needed, straight to the DB. The platform is starting to eat its own dog food.
+        - generic [ref=f1e91]: Benji Lopez
+      - listitem [ref=f1e92]:
+        - generic [ref=f1e93]:
+          - generic [ref=f1e94]:
+            - generic [ref=f1e95]: Evidence
+            - generic [ref=f1e96]: →
+            - link "Homework Tracking Gap" [ref=f1e97] [cursor=pointer]:
+              - /url: /problems/2
+          - generic [ref=f1e98]: 11M AGO
+        - paragraph [ref=f1e99]: Surveyed 40 teachers — 35 cite homework tracking as top student accountability issue.
+        - generic [ref=f1e100]:
+          - generic [ref=f1e102]: Benji Lopez
+          - generic [ref=f1e104]: ↑ 0
+      - listitem [ref=f1e105]:
+        - generic [ref=f1e106]:
+          - generic [ref=f1e107]:
+            - generic [ref=f1e108]: Observation
+            - generic [ref=f1e109]: →
+            - link "Homework Tracking Gap" [ref=f1e110] [cursor=pointer]:
+              - /url: /problems/2
+          - generic [ref=f1e111]: 11M AGO
+        - paragraph [ref=f1e112]: Students tend to keep forgetting homework
+        - paragraph [ref=f1e113]: 1 expert has contributed evidence to this problem.
+        - generic [ref=f1e114]:
+          - link "Problem Homework Tracking Gap" [ref=f1e115] [cursor=pointer]:
+            - /url: /problems/2
+            - generic [ref=f1e116]: Problem
+            - generic [ref=f1e117]: Homework Tracking Gap
+          - link "Evidence 1 supporting record" [ref=f1e118] [cursor=pointer]:
+            - /url: /problems/2
+            - generic [ref=f1e119]: Evidence
+            - generic [ref=f1e120]: 1 supporting record
+        - generic [ref=f1e121]:
+          - generic [ref=f1e123]: Benji Lopez
+          - generic [ref=f1e125]: ↑ 0
+      - listitem [ref=f1e126]:
+        - generic [ref=f1e127]:
+          - generic [ref=f1e129]: Observation
+          - generic [ref=f1e130]: 1H AGO
+        - paragraph [ref=f1e131]: "@Education Students tend to keep forgetting homework"
+        - generic [ref=f1e133]:
+          - generic [ref=f1e134]: Benji Lopez
+          - generic [ref=f1e135]: Education
+      - listitem [ref=f1e136]:
+        - generic [ref=f1e137]:
+          - generic [ref=f1e139]: Observation
+          - generic [ref=f1e140]: 5H AGO
+        - paragraph [ref=f1e141]: Taking scans of disabled people is particularly hard
+        - generic [ref=f1e143]:
+          - generic [ref=f1e144]: Benjamin Rodriguez
+          - generic [ref=f1e145]: Medical
+      - listitem [ref=f1e146]:
+        - generic [ref=f1e147]:
+          - generic [ref=f1e148]:
+            - generic [ref=f1e149]: Observation
+            - generic [ref=f1e150]: →
+            - link "ICU Handover Workflow Gap" [ref=f1e151] [cursor=pointer]:
+              - /url: /problems/1
+          - generic [ref=f1e152]: 7H AGO
+        - paragraph [ref=f1e153]: I've noticed sometimes notes get lost in handover
+        - paragraph [ref=f1e154]: 2 experts have contributed evidence to this problem.
+        - generic [ref=f1e155]:
+          - link "Problem ICU Handover Workflow Gap" [ref=f1e156] [cursor=pointer]:
+            - /url: /problems/1
+            - generic [ref=f1e157]: Problem
+            - generic [ref=f1e158]: ICU Handover Workflow Gap
+          - link "Evidence 2 supporting records" [ref=f1e159] [cursor=pointer]:
+            - /url: /problems/1
+            - generic [ref=f1e160]: Evidence
+            - generic [ref=f1e161]: 2 supporting records
+        - generic [ref=f1e162]:
+          - generic [ref=f1e163]:
+            - generic [ref=f1e164]: Bel Lry
+            - generic [ref=f1e165]: Medical
+          - generic [ref=f1e167]: ↑ 91
+      - listitem [ref=f1e168]:
+        - generic [ref=f1e169]:
+          - generic [ref=f1e170]:
+            - generic [ref=f1e171]: Pattern detected
+            - generic [ref=f1e172]: Information Handoff
+            - generic [ref=f1e173]: Medical
+          - paragraph [ref=f1e174]: Clinical shift handover requires nurses to manually re-document patient vitals, medications, and status updates that already exist in the EHR. This dual-entry creates documentation errors and accounts for 20–60 minutes of uncompensated cognitive labor per shift, per unit.
+          - link "View the problem →" [ref=f1e175] [cursor=pointer]:
+            - /url: /problems/1
+      - listitem [ref=f1e176]:
+        - generic [ref=f1e177]:
+          - generic [ref=f1e178]:
+            - generic [ref=f1e179]: Evidence
+            - generic [ref=f1e180]: →
+            - link "ICU Handover Workflow Gap" [ref=f1e181] [cursor=pointer]:
+              - /url: /problems/1
+          - generic [ref=f1e182]: 2D AGO
+        - paragraph [ref=f1e183]: "JAMA study: 70% of adverse events involve communication failures during care transitions. Handover is the highest-risk transition point in clinical settings."
+        - generic [ref=f1e184]:
+          - generic [ref=f1e185]:
+            - generic [ref=f1e186]: Maria Santos
+            - generic [ref=f1e187]: Medical
+          - generic [ref=f1e189]: ↑ 91
+      - listitem [ref=f1e190]:
+        - generic [ref=f1e191]:
+          - generic [ref=f1e192]:
+            - generic [ref=f1e193]: Evidence
+            - generic [ref=f1e194]: →
+            - link "ICU Handover Workflow Gap" [ref=f1e195] [cursor=pointer]:
+              - /url: /problems/1
+          - generic [ref=f1e196]: 9D AGO
+        - paragraph [ref=f1e197]: "12 charge nurses interviewed across three hospitals. 11/12 cited handover documentation as their #1 daily friction point. Average time lost: 22 minutes per shift. Multiplied across 3 shifts = 66 minutes per unit per day."
+        - generic [ref=f1e198]:
+          - generic [ref=f1e199]:
+            - generic [ref=f1e200]: Dr. Ren Watanabe
+            - generic [ref=f1e201]: Medical
+          - generic [ref=f1e203]: ↑ 91
+      - listitem [ref=f1e204]:
+        - generic [ref=f1e205]:
+          - generic [ref=f1e206]:
+            - generic [ref=f1e207]: Observation
+            - generic [ref=f1e208]: →
+            - link "ICU Handover Workflow Gap" [ref=f1e209] [cursor=pointer]:
+              - /url: /problems/1
+          - generic [ref=f1e210]: 17D AGO
+        - paragraph [ref=f1e211]: The paper trail between day and night shift is where most medication errors originate. Night nurses can't verify what morning did without calling someone. EHRs don't help because nobody keeps them updated during handover.
+        - paragraph [ref=f1e212]: 2 experts have contributed evidence to this problem.
+        - generic [ref=f1e213]:
+          - link "Problem ICU Handover Workflow Gap" [ref=f1e214] [cursor=pointer]:
+            - /url: /problems/1
+            - generic [ref=f1e215]: Problem
+            - generic [ref=f1e216]: ICU Handover Workflow Gap
+          - link "Evidence 2 supporting records" [ref=f1e217] [cursor=pointer]:
+            - /url: /problems/1
+            - generic [ref=f1e218]: Evidence
+            - generic [ref=f1e219]: 2 supporting records
+        - generic [ref=f1e220]:
+          - generic [ref=f1e221]:
+            - generic [ref=f1e222]: Dr. Ren Watanabe
+            - generic [ref=f1e223]: Medical
+          - generic [ref=f1e225]: ↑ 91
+      - listitem [ref=f1e226]:
+        - generic [ref=f1e227]:
+          - generic [ref=f1e228]:
+            - generic [ref=f1e229]: Observation
+            - generic [ref=f1e230]: →
+            - link "ICU Handover Workflow Gap" [ref=f1e231] [cursor=pointer]:
+              - /url: /problems/1
+          - generic [ref=f1e232]: 22D AGO
+        - paragraph [ref=f1e233]: Handover in our NICU can take 45 minutes if a patient had a procedure. Nothing is automated. We type everything twice into a paper sheet that gets scanned and lost.
+        - paragraph [ref=f1e234]: 2 experts have contributed evidence to this problem.
+        - generic [ref=f1e235]:
+          - link "Problem ICU Handover Workflow Gap" [ref=f1e236] [cursor=pointer]:
+            - /url: /problems/1
+            - generic [ref=f1e237]: Problem
+            - generic [ref=f1e238]: ICU Handover Workflow Gap
+          - link "Evidence 2 supporting records" [ref=f1e239] [cursor=pointer]:
+            - /url: /problems/1
+            - generic [ref=f1e240]: Evidence
+            - generic [ref=f1e241]: 2 supporting records
+        - generic [ref=f1e242]:
+          - generic [ref=f1e243]:
+            - generic [ref=f1e244]: Alicia Torres
+            - generic [ref=f1e245]: Medical
+          - generic [ref=f1e247]: ↑ 91
+      - listitem [ref=f1e248]:
+        - generic [ref=f1e249]:
+          - generic [ref=f1e250]:
+            - generic [ref=f1e251]: Observation
+            - generic [ref=f1e252]: →
+            - link "ICU Handover Workflow Gap" [ref=f1e253] [cursor=pointer]:
+              - /url: /problems/1
+          - generic [ref=f1e254]: 28D AGO
+        - paragraph [ref=f1e255]: Every shift handover in the ICU involves 20 minutes of nurses transcribing vitals that are already in the EHR. The data exists — nobody has solved the handover workflow. We're doing manual ETL between systems at 6am every morning.
+        - paragraph [ref=f1e256]: 2 experts have contributed evidence to this problem.
+        - generic [ref=f1e257]:
+          - link "Problem ICU Handover Workflow Gap" [ref=f1e258] [cursor=pointer]:
+            - /url: /problems/1
+            - generic [ref=f1e259]: Problem
+            - generic [ref=f1e260]: ICU Handover Workflow Gap
+          - link "Evidence 2 supporting records" [ref=f1e261] [cursor=pointer]:
+            - /url: /problems/1
+            - generic [ref=f1e262]: Evidence
+            - generic [ref=f1e263]: 2 supporting records
+        - generic [ref=f1e264]:
+          - generic [ref=f1e265]:
+            - generic [ref=f1e266]: Maria Santos
+            - generic [ref=f1e267]: Medical
+          - generic [ref=f1e269]: ↑ 91
+  - contentinfo [ref=f1e270]:
+    - generic [ref=f1e271]:
+      - generic [ref=f1e272]:
+        - generic [ref=f1e273]:
+          - img [ref=f1e274]
+          - paragraph [ref=f1e275]: Mass Academy
+        - navigation [ref=f1e276]:
+          - link "Rooms" [ref=f1e277] [cursor=pointer]:
+            - /url: /rooms
+          - link "Program" [ref=f1e278] [cursor=pointer]:
+            - /url: /#program
+          - link "How it works" [ref=f1e279] [cursor=pointer]:
+            - /url: /#how-it-works
+          - link "Apply" [ref=f1e280] [cursor=pointer]:
+            - /url: /#apply
+      - paragraph [ref=f1e281]: © 2026
+  - alert [ref=f1e282]
