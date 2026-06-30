@@ -17,6 +17,7 @@
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
     "start": "next start",
+    "tui": "tsx --env-file .env.local scripts/tui.tsx",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
