@@ -127,9 +127,105 @@ async function loadFeed(): Promise<FeedItem[]> {
 const args = process.argv.slice(2);
 
 if (args.includes("--json")) {
-  const items = await loadProblems();
-  process.stdout.write(JSON.stringify({ type: "list", items }) + "\n");
-  process.stderr.write(JSON.stringify({ status: "ok", count: items.length }) + "\n");
+  const jsonIdx = args.indexOf("--json");
+  const sub = args[jsonIdx + 1] ?? "list";
+  const flag = (name: string) => { const i = args.indexOf(name); return i !== -1 ? args[i + 1] : undefined; };
+
+  function need(name: string, val: string | undefined): string {
+    if (!val) { process.stderr.write(JSON.stringify({ error: `${name} required` }) + "\n"); process.exit(1); }
+    return val;
+  }
+
+  let out: unknown;
+  if (sub === "get") {
+    const id = parseInt(args[jsonIdx + 2] ?? "", 10);
+    if (!id) { process.stderr.write(JSON.stringify({ error: "usage: --json get <id>" }) + "\n"); process.exit(1); }
+    const item = await loadDetail(id);
+    out = item ? { type: "detail", item } : { type: "error", error: "not found" };
+
+  } else if (sub === "feed") {
+    const items = await loadFeed();
+    out = { type: "feed", items };
+
+  } else if (sub === "create-problem") {
+    const title = need("--title", flag("--title"));
+    const description = need("--description", flag("--description"));
+    const categoryId = flag("--category-id") ? parseInt(flag("--category-id")!, 10) : undefined;
+    const [row] = await db.insert(schema.problems)
+      .values({ title, description, categoryId })
+      .returning({ id: schema.problems.id });
+    out = { type: "created", entity: "problem", id: row?.id };
+
+  } else if (sub === "post-obs") {
+    const content = need("--content", flag("--content"));
+    const authorName = flag("--author") ?? "tui-agent";
+    const postType = (flag("--post-type") ?? "observation") as "observation" | "idea" | "request" | "customer_insight" | "case_study" | "prototype" | "milestone" | "question" | "hiring" | "funding" | "workflow" | "problem_report";
+    const categoryId = flag("--category-id") ? parseInt(flag("--category-id")!, 10) : undefined;
+    const [row] = await db.insert(schema.observations)
+      .values({ content, authorName, postType, categoryId })
+      .returning({ id: schema.observations.id });
+    out = { type: "created", entity: "observation", id: row?.id };
+
+  } else if (sub === "add-obs") {
+    const problemId = parseInt(need("--problem-id", flag("--problem-id")), 10);
+    const content = need("--content", flag("--content"));
+    const authorName = flag("--author") ?? "tui-agent";
+    const [obs] = await db.insert(schema.observations)
+      .values({ content, authorName })
+      .returning({ id: schema.observations.id });
+    if (!obs) throw new Error("insert failed");
+    await db.insert(schema.observationProblems).values({ observationId: obs.id, problemId });
+    await db.insert(schema.problemEvents).values({
+      problemId, eventType: "ObservationAdded", actorName: authorName,
+      summary: `Observation: ${content.slice(0, 120)}${content.length > 120 ? "…" : ""}`,
+    });
+    out = { type: "created", entity: "observation", id: obs.id };
+
+  } else if (sub === "add-evidence") {
+    const problemId = parseInt(need("--problem-id", flag("--problem-id")), 10);
+    const title = need("--title", flag("--title"));
+    const content = need("--content", flag("--content"));
+    const contributorName = flag("--author") ?? "tui-agent";
+    const subtype = (flag("--subtype") ?? "research") as "interview" | "research" | "measurement" | "experiment" | "prototype" | "document";
+    const verdict = (flag("--verdict") ?? "supports") as "supports" | "challenges" | "neutral";
+    const [ev] = await db.insert(schema.evidence)
+      .values({ title, content, contributorName, subtype })
+      .returning({ id: schema.evidence.id });
+    if (!ev) throw new Error("insert failed");
+    await db.insert(schema.evidenceProblems).values({ evidenceId: ev.id, problemId, verdict });
+    await db.insert(schema.problemEvents).values({
+      problemId, eventType: "EvidenceAdded", actorName: contributorName,
+      summary: `${subtype}: ${title}`,
+    });
+    out = { type: "created", entity: "evidence", id: ev.id };
+
+  } else if (sub === "add-idea") {
+    const problemId = parseInt(need("--problem-id", flag("--problem-id")), 10);
+    const title = need("--title", flag("--title"));
+    const description = need("--description", flag("--description"));
+    const authorName = flag("--author") ?? "tui-agent";
+    const [idea] = await db.insert(schema.ideas)
+      .values({ title, description, authorName })
+      .returning({ id: schema.ideas.id });
+    if (!idea) throw new Error("insert failed");
+    await db.insert(schema.ideaProblems).values({ ideaId: idea.id, problemId });
+    await db.insert(schema.problemEvents).values({
+      problemId, eventType: "IdeaProposed", actorName: authorName,
+      summary: `Idea proposed: ${title}`,
+    });
+    out = { type: "created", entity: "idea", id: idea.id };
+
+  } else {
+    // list (default) — optional --state and --filter flags
+    const stateFlag = flag("--state");
+    const filterFlag = flag("--filter") ?? "";
+    let items = await loadProblems(filterFlag);
+    if (stateFlag) items = items.filter((p) => p.state === stateFlag);
+    out = { type: "list", items };
+  }
+
+  process.stdout.write(JSON.stringify(out) + "\n");
+  process.stderr.write(JSON.stringify({ status: "ok" }) + "\n");
   await conn.end();
   process.exit(0);
 }
