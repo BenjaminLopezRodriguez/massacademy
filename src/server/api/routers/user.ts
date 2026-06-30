@@ -1,4 +1,4 @@
-import { desc, eq, ilike } from "drizzle-orm";
+import { desc, eq, ilike, isNotNull } from "drizzle-orm";
 import { z } from "zod";
 
 import { createTRPCRouter, publicProcedure } from "@/server/api/trpc";
@@ -69,6 +69,17 @@ export const userRouter = createTRPCRouter({
     .query(async ({ ctx, input }) => {
       return ctx.db.query.users.findFirst({
         where: eq(users.kindeId, input.kindeId),
+      });
+    }),
+
+  list: publicProcedure
+    .input(z.object({ limit: z.number().int().min(1).max(100).default(50) }).optional())
+    .query(async ({ ctx, input }) => {
+      return ctx.db.query.users.findMany({
+        where: isNotNull(users.displayName),
+        orderBy: [desc(users.createdAt)],
+        limit: input?.limit ?? 50,
+        columns: { kindeId: true, displayName: true, craft: true, createdAt: true },
       });
     }),
 
