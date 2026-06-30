@@ -36,7 +36,6 @@ export function PostForm({
 }: {
   defaultName?: string;
   rooms: Room[];
-  plain?: boolean;
 }) {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const [content, setContent] = useState("");
@@ -57,6 +56,7 @@ export function PostForm({
     onSuccess: () => {
       setContent("");
       setCategoryId(undefined);
+      setPostType("observation");
       setDone(true);
       setTimeout(() => setDone(false), 1500);
     },

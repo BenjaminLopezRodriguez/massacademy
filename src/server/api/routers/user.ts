@@ -65,7 +65,7 @@ export const userRouter = createTRPCRouter({
     }),
 
   getByKindeId: publicProcedure
-    .input(z.object({ kindeId: z.string() }))
+    .input(z.object({ kindeId: z.string().min(1).max(128) }))
     .query(async ({ ctx, input }) => {
       return ctx.db.query.users.findFirst({
         where: eq(users.kindeId, input.kindeId),
@@ -84,34 +84,41 @@ export const userRouter = createTRPCRouter({
         where: eq(users.kindeId, input.kindeId),
       });
 
+      const safeDisplayName =
+        input.displayName !== "Expert" && input.displayName.trim().length > 0
+          ? input.displayName
+          : null;
+
       const [memberRows, observationRows, evidenceRows, problemRows, ideaRows] =
-        await Promise.all([
-          ctx.db.query.roomMembers.findMany({
-            where: ilike(roomMembers.displayName, input.displayName),
-            with: { category: true },
-            orderBy: [desc(roomMembers.createdAt)],
-          }),
-          ctx.db.query.observations.findMany({
-            where: ilike(observations.authorName, input.displayName),
-            orderBy: [desc(observations.createdAt)],
-            limit: 20,
-          }),
-          ctx.db.query.evidence.findMany({
-            where: ilike(evidence.contributorName, input.displayName),
-            orderBy: [desc(evidence.createdAt)],
-            limit: 20,
-          }),
-          ctx.db.query.problems.findMany({
-            where: ilike(problems.authorName, input.displayName),
-            orderBy: [desc(problems.createdAt)],
-            limit: 20,
-          }),
-          ctx.db.query.ideas.findMany({
-            where: ilike(ideas.authorName, input.displayName),
-            orderBy: [desc(ideas.createdAt)],
-            limit: 20,
-          }),
-        ]);
+        safeDisplayName
+          ? await Promise.all([
+              ctx.db.query.roomMembers.findMany({
+                where: ilike(roomMembers.displayName, safeDisplayName),
+                with: { category: true },
+                orderBy: [desc(roomMembers.createdAt)],
+              }),
+              ctx.db.query.observations.findMany({
+                where: ilike(observations.authorName, safeDisplayName),
+                orderBy: [desc(observations.createdAt)],
+                limit: 20,
+              }),
+              ctx.db.query.evidence.findMany({
+                where: ilike(evidence.contributorName, safeDisplayName),
+                orderBy: [desc(evidence.createdAt)],
+                limit: 20,
+              }),
+              ctx.db.query.problems.findMany({
+                where: ilike(problems.authorName, safeDisplayName),
+                orderBy: [desc(problems.createdAt)],
+                limit: 20,
+              }),
+              ctx.db.query.ideas.findMany({
+                where: ilike(ideas.authorName, safeDisplayName),
+                orderBy: [desc(ideas.createdAt)],
+                limit: 20,
+              }),
+            ])
+          : [[], [], [], [], []];
 
       const primaryMember = memberRows[0] ?? null;
       const craft = user?.craft ?? primaryMember?.expertiseLabel ?? "Expert";
